@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Montserrat:wght@600&family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Raleway:wght@200&display=swap');
+
+header {
+    background-color: #FB8500;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    display: flex;
+    padding: 20px;
+}   
+
+header h1 {
+    font-family: 'Lato', sans-serif, 'Montserrat';
+    margin: auto;
+}
+
+header img {
+    height: 150px;
+    border-radius: 15px;
+}
+
+body {
+    padding: 5px;
+    max-width: 600px;
+    margin: 10px auto;
+    border-radius: 20px;
+    border: 1px solid gray;
+    font-family: 'Lato', 'Raleway', sans-serif;
+}
+
+main {
+    max-width: 450px;
+    margin: 10px auto;
+}
+
+main h1{
+    text-align: center;
+}
+
+#lesson-list {
+    /* border: 1px solid #FB8500; */ 
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+main ul {
+    line-height: 2em;
+    font-family: 'Lato', sans-serif, 'Montserrat';
+}
+
+footer {
+    background-color: #FB8500;
+    padding: 20px;
+    text-align: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+footer p {
+    font-size: 0.75em;
+}
