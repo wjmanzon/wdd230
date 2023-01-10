@@ -5,14 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="WDD 230 Course Portal of Wilson Jr Manzon">
-    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <!-- 
+        Another viable option is to reference an external source 
+        versus maintaining a local normalize file thus reducing our 
+        site footprint. This particular reference has minimized the 
+        "normalize.css" file by removing all the spaces and line 
+        returns. Open the file to view the min version.
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    -->
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
     <script defer src="scripts/main.js"></script>
     <title>WDD 230 Course Portal | WJ Manzon</title>
 </head>
 <body>
     <header>
         <img src="images/wil.PNG" alt="image of Wilson Jr Manzon">
-        <h1>Wilson Jr Manzon</h1>
+        <h2>Wilson Jr Manzon</h2>
     </header>
     <main>
         <h1>WDD 230: Assignment Portal</h1>
@@ -66,7 +76,7 @@
         <hr>
     </main>
     <footer>
-        <h2>&copy; <span id="copyrightYear"></span>  |  Wilson Jr Manzon  |  BYU Idaho</h2>
+        <h3>&copy; <span id="copyrightYear"></span>  |  Wilson Jr Manzon  |  BYU Idaho</h3>
         <p>Last Updated: <span id="lastModified"></span></p>
     </footer>
 </body>

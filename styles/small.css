@@ -5,17 +5,19 @@ header {
     background-color: #FB8500;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
-    display: flex;
+    /* display: flex; */
     padding: 20px;
+    text-align: center;
 }   
 
-header h1 {
+header h2 {
     font-family: 'Lato', sans-serif, 'Montserrat';
-    margin: auto;
+    margin: .75em 0 auto;
+    font-size: 1.3em;
 }
 
 header img {
-    height: 150px;
+    height: 10em;
     border-radius: 15px;
 }
 
@@ -35,6 +37,7 @@ main {
 
 main h1{
     text-align: center;
+    font-size: 1.2em;
 }
 
 #lesson-list {
@@ -54,6 +57,10 @@ footer {
     text-align: center;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
+}
+
+footer h3 {
+    font-size: 1em;
 }
 
 footer p {

@@ -1,0 +1,18 @@
+@media only screen and (min-width: 32.5em) {
+    header {
+        display: flex;
+    }
+    
+    header h2 {
+        margin: auto;
+        font-size: 1.8em;
+    }
+
+    main h1 {
+        font-size: 2em;
+    }
+
+    footer h3 {
+        font-size: 1.4em;
+    }
+}
