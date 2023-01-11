@@ -16,6 +16,10 @@ header h2 {
     font-size: 1.3em;
 }
 
+a {
+    color: black;
+}
+
 header img {
     height: 10em;
     border-radius: 15px;
