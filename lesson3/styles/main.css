@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Montserrat:wght@600&family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Raleway:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 800px;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif, 'Montserrat';
+    margin: 10px auto;
+    padding: 5px;
+    border: solid 1px black;
+    border-radius: 25px;
+}
+
+.above-the-nav {
+    background-color: #FB8500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+h1 {
+    font-size: 1.4em;
+    text-align: center;
+    padding: 1em;
+}
+
+nav {
+    background-color: #FFB703;
+}
+
+nav ul {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+nav ul li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 0.75em;
+    text-decoration: none;
+}
+
+.active, nav a:hover {
+    color: #FFB703;
+    background-color: black;
+}
+
+main {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+h2 {
+    padding-top: 2em;
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
+p {
+    font-family: "Raleway", sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    line-height: 1.5em;
+}
+
+.logo {
+    width: 200px;
+}
+
+footer {
+    background-color: #FB8500;
+    padding: 2em;
+    margin: 20px 0 auto;
+    text-align: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+:root {
+    /* change the values below to your colors from your palette */
+    --primary-color: #1A1C20;
+    --secondary-color: #F0A500;
+    --accent1-color: #CF7500;
+    --accent2-color: #F4F4F4;
+}
+
+/* taken from WDD 130 */
+.colors {
+    width: 100%;
+    min-width: 350px;
+    margin: 30px auto;
+    text-align: center;
+  }
+  .colors th {
+    background-color: #999;
+  }
+  .colors td{
+    width: 25%;
+    height: 3em;
+  }
+
+  .primary {
+    color: white;
+    background-color: var(--primary-color);
+  }
+  .secondary {
+    background-color: var(--secondary-color);
+  }
+  .accent1 {
+    background-color: var(--accent1-color);
+  }
+  .accent2{
+    border: solid 1px black;
+    background-color: var(--accent2-color);
+  }
+/* end of taken from WDD 130 */
+
+
+/* tablet views */
+@media only screen and (min-width: 37.5em) {
+    nav ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+/* desktop views */
+@media only screen and (min-width: 60em) {
+
+
+}
