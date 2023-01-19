@@ -27,7 +27,7 @@ header {
     grid-template-columns: 1fr;
 }
 
-.box, #special-box {
+.box, .special {
     width: 90%;
     background-color: lightcyan;
     margin: 1em auto;
@@ -37,7 +37,6 @@ header {
 
 .box-title {
     background-color: black;
-    color: white;
     padding: 10px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -47,16 +46,17 @@ header {
     padding: 10px;
 }
 
-h1, h3 {
+h1, h2 {
     line-height: .5em;
     text-align: center;
 }
 
-h2 {
+.box-title h3 {
     line-height: 0.1em;
+    color: white;
 }
 
-h4, a {
+h3, a {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 1.1em;
@@ -91,7 +91,7 @@ footer {
         grid-template-columns: 1fr 1fr;
     }
 
-    #special-box {
+    .special {
         grid-column: span 2;
     }
 }
@@ -103,7 +103,7 @@ footer {
         grid-template-columns: 1fr 1fr 1fr;
     }
 
-    #special-box {
+    .special {
         grid-column: span 1;
     }
 }
