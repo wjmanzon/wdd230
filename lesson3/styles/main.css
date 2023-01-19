@@ -37,6 +37,9 @@ nav {
 }
 
 nav ul {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
     list-style-type: none;
     overflow: hidden;
 }
@@ -45,11 +48,11 @@ nav ul li a {
     display: block;
     color: black;
     text-align: center;
-    padding: 0.75em;
+    padding: 1em;
     text-decoration: none;
 }
 
-.active, nav a:hover {
+.active, nav a:hover {  
     color: #FFB703;
     background-color: black;
 }
@@ -131,10 +134,23 @@ a {
 
 /* tablet views */
 @media only screen and (min-width: 37.5em) {
-    nav ul {
+    
+    /* nav ul {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
+    */
+
+    nav ul {
+        justify-content: space-evenly;
+        flex-direction: row;
+    }
+
+    /* this divides the rows into three just like the commented grid above */
+    nav ul li  {
+        flex: 1 1 auto; 
+    }
+
 }
 
 /* desktop views */
