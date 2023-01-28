@@ -1,0 +1,72 @@
+/* tablet views */
+@media only screen and (min-width: 37.5em) {
+
+.desktop-header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.site-title {
+    width: 130px;
+}
+
+.site-title h1 {
+    margin: auto 0;
+    font-size: 1em;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+nav ul li a {
+    border: none;
+}
+
+nav ul {display: none;}
+nav ul.open {display: block;}
+
+.top-footer {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.address-block {
+    text-align: left;
+    margin-left: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.contact-info {
+    text-align: center;
+    margin-left: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.top-left-footer {
+    display: flex;
+    margin-left: 0;
+}
+
+.bottom-footer {
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.bottom-footer p {
+    display: inline;
+}
+
+.vertical-line {
+    display: inline;
+}
+
+
+}

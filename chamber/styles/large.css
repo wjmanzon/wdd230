@@ -1,0 +1,80 @@
+/* desktop views */
+@media only screen and (min-width: 60em) {
+    @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Montserrat:wght@600&family=Open+Sans:wght@600&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Raleway:wght@200&display=swap');
+    
+    nav ul li a {
+        padding: .5rem 1rem;
+    }
+
+
+    .desktop-header {
+        display: grid;
+        grid-template-columns: 1fr 4fr 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .top-left {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .soc-med {
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+
+    .nav-bar {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+    .site-title h1 {
+        font-size: 1em;
+        font-family: 'Lato', sans-serif, 'Montserrat';
+        display: block;
+    }
+    
+    .nav-bar {
+        margin: auto 0;
+    }
+    
+    .nav-bar a {
+        display: block;
+    }
+    
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    nav ul li {
+        text-align: center;
+        display: block;
+        width: 100%;
+    }
+
+    .soc-med {
+        padding: 0;
+        margin: auto;
+        text-align: right;
+    }
+    
+    button {
+        display: none;
+    }
+
+    .top-footer {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+    }
+    
+    .top-left-footer {
+        margin-left: 0;
+        display: flex;
+        align-items: left;
+    }
+
+
+}
+
