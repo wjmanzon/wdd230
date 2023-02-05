@@ -183,8 +183,10 @@ main {
 }
 
 .hero {
+    min-height: 300px;
   grid-column: 1 / 2;
   grid-row: 1 / 2;
+  position: relative;
 }
 
 .event {
@@ -195,16 +197,49 @@ main {
 .spotlight-1, .spotlight-2, .spotlight-3 {
     padding: 10px;
     border: 1px solid black;
+    background-color: #fff;
 }
 
 .spotlight-3 {
     display: none;
 }
 
+.spotlight-container {
+    background-color: #1A1C20;
+    opacity: .9;
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family: "Lato", sans-serif;
 }
 
-p {
+p, a {
     font-family: "Raleway";
 }
+
+.hero-button, .join-button {
+    display: inline-block;
+    margin-left: 0;
+    font-size: 1em;
+    font-family: "Raleway";
+    padding: 10px;
+    background-color: #1A1C20;
+    color: #F4F4F4;
+    border-radius: 4px;
+    text-decoration: none;
+  }
+
+.hero-button {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    margin-right: 0;
+}
+  
+  button:hover,
+  button:active,
+  button:focus {
+    background-color: #F0A500;
+    color: #1A1C20;
+    cursor: pointer;
+  }
