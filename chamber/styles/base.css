@@ -183,10 +183,18 @@ main {
 }
 
 .hero {
-    min-height: 300px;
+  /*  min-height: 300px; */
   grid-column: 1 / 2;
   grid-row: 1 / 2;
   position: relative;
+}
+
+.hero-image {
+    width: 100%;
+    object-fit: cover;
+    padding: 0;
+    margin: 0;
+    z-index: -1;
 }
 
 .event {
@@ -242,4 +250,8 @@ p, a {
     background-color: #F0A500;
     color: #1A1C20;
     cursor: pointer;
+  }
+
+  .weather-icon {
+    width: 50%;
   }

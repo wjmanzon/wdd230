@@ -19,7 +19,7 @@
     <header>
         <div class="desktop-header">
             <div class="top-left">
-                <img class="logo" src="images/logo.png" alt="logo of Rexburg Chamber of Commerce"> 
+                <img class="logo" src="images/logo.webp" alt="logo of Rexburg Chamber of Commerce"> 
                 <div class="site-title">
                     <h1> Rexburg Chamber of Commerce </h1>
                 </div>
@@ -53,9 +53,13 @@
 
             <div class="weather">
                 <h2>Weather</h2>
-                <p>Partly cloudy</p>
-                <p>Wind Speed: 2.5km/h</p>
-                <p>Wind Chill: N/A</p>
+                <img class="weather-icon" src="images/cloudy.png" alt="partly cloudy weather icon"> 
+                <h3>Partly Cloudy</h3>
+                <p><span id="temperature"> 10 </span> °F </p>
+                <p>Wind Speed:</p>
+                <p><span id="wind-speed"> 9 </span> m/h </p>
+                <p>Wind Chill:</p>
+                <p id="wind-chill"></p>
             </div>
 
             <div class="join">
@@ -64,9 +68,19 @@
                     and how it will benefit your organization.</p>
             </div>
 
-            <div class="hero">
+            <!--
+                <div class="hero">
                 <h2>Welcome to Rexburg</h2>
                 <button class="hero-button"> Join the Chamber </button>
+                </div>
+            -->
+            
+            <div class="hero">
+                <picture>
+                    <source srcset="images/medium.png" media="(min-width: 400px) and (max-width: 799px)">
+                    <source srcset="images/large.png" media="(min-width: 800px)">
+                    <img class="hero-image" src="images/small.png" alt="Seattle Chamber of Commerce Hero Image">
+                </picture>
             </div>
 
             <div class="news-release">
@@ -115,7 +129,7 @@
     <footer>
         <div class="top-footer">
             <div class="top-left-footer">
-                <img class="logo" src="images/logo.png" alt="logo of Rexburg Chamber of Commerce">
+                <img class="logo" src="images/logo.webp" alt="logo of Rexburg Chamber of Commerce">
                 <div class="address-block">    
                     <h4> Rexburg Chamber of Commerce </h4>
                     <p> 123 Main St.</p>
@@ -136,6 +150,7 @@
             <p> Last Modification: <span id="lastModified"></span></p>
         </div>
     </footer>
+    <script defer src="scripts/windchill.js"></script>
     <script defer src="scripts/main.js"></script>
 </body>
 </html>
