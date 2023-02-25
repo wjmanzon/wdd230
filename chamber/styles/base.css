@@ -258,7 +258,6 @@ p, a {
 
 .discover-main {
     max-width: 800px;
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
 }
@@ -281,3 +280,7 @@ picture {
 img[data-src] {
 	filter: blur(0.2em);
 }
+
+.discover-title {
+    text-align: center;
+  }
