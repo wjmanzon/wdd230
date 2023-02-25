@@ -256,7 +256,7 @@ p, a {
     width: 50%;
   }
 
-.discover-main {
+.discover-main, .join-main {
     max-width: 800px;
     display: flex;
     flex-direction: column;
@@ -284,3 +284,60 @@ img[data-src] {
 .discover-title {
     text-align: center;
   }
+
+  .overlay {
+    visibility: hidden;
+  }
+
+/* FOR THE JOIN US PAGE */
+.join-title, .thank-you-title {
+    text-align: center;
+  }
+
+.join-title, label {
+    font-family: 'Lato', sans-serif;
+    color: #1A1C20;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  select,
+  textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+  }
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="tel"]:focus,
+  select:focus,
+  textarea:focus {
+    outline: none;
+    box-shadow: 0px 0px 5px #F0A500;
+  }
+  input[type="submit"] {
+    background-color: #F0A500;
+    color: #F4F4F4;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+  }
+  input[type="submit"]:hover {
+    background-color: #1A1C20;
+  }
+
+  /* FOR THANK YOU PAGE */

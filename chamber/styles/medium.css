@@ -69,7 +69,7 @@ nav ul.open {display: block;}
 }
 
 /* TESTING ONLY */
-main {
+.home-main {
     padding: 20px;
     display: grid;
     grid-template-columns: 2fr;
@@ -145,6 +145,8 @@ main {
 
 /* The overlay effect - lays on top of the container and over the image */
 .overlay {
+  visibility: visible;
+  font-family: 'Lato', sans-serif;
   position: absolute;
   top: 0;
   background: black; /* Black see-through */
