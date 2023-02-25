@@ -6,11 +6,12 @@ table {
     border-collapse: collapse;
     width: 100%;
   }
-  
+
   th, td {
     text-align: center;
     padding: 8px;
     font-family: 'Lato', sans-serif, 'Montserrat';
+    border: solid 1px black;
   }
   
   th {
@@ -18,7 +19,11 @@ table {
     color: black;
   }
   
-  th:first-child, td:first-child {
+  th:first-child {
+    text-align: center;
+  }
+
+  td:first-child {
     text-align: left;
   }
   
@@ -40,4 +45,5 @@ table {
 
   p {
     font-family: 'Raleway', sans-serif, 'Montserrat';
+    font-size: .75em;
   }
