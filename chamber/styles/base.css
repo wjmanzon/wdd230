@@ -360,3 +360,6 @@ img[data-src] {
     max-width: 300px;
   }
   
+  .companynames {
+    padding-top: 1rem;
+  }

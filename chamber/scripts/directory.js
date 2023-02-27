@@ -19,6 +19,7 @@ function displayCompanies(companies) {
     let phone = document.createElement('p');
     let membershiplevel = document.createElement('p');
 
+    h2.setAttribute('class', 'companynames');
     logo.setAttribute('src', company.logo);
     logo.setAttribute('alt', `Lolo of ${company.name}`);
     logo.setAttribute('loading', 'lazy');
