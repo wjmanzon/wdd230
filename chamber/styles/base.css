@@ -290,7 +290,7 @@ img[data-src] {
   }
 
 /* FOR THE JOIN US PAGE */
-.join-title, .thank-you-title {
+.join-title, .thank-you-title, .directory-title {
     text-align: center;
   }
 
@@ -341,3 +341,22 @@ img[data-src] {
   }
 
   /* FOR THANK YOU PAGE */
+
+
+  /* FOR DIRECTORY PAGE */
+
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1em;
+  }
+  
+  section {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-shadow: 2px 2px 4px gray;
+    padding: 1rem;
+    max-width: 300px;
+  }
+  

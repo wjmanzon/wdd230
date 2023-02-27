@@ -163,6 +163,13 @@ nav ul.open {display: block;}
 /* When you mouse over the container, fade in the overlay title */
 .container:hover .overlay {
   opacity: 1;
-}
+  }
 
+  /* FOR DIRECTORY PAGE */
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    padding: 1em;
+  }
 }
