@@ -342,24 +342,90 @@ img[data-src] {
 
   /* FOR THANK YOU PAGE */
 
-
   /* FOR DIRECTORY PAGE */
 
-  .cards {
+.directory-main {
+    display: block;
+}
+
+.directory-main h2 {
+    text-align: center;
+}
+
+.company-images {
+    height: 75px;
+}
+
+.businesses-cards {
     display: grid;
-    grid-template-columns: 1fr;
-    gap: 1em;
-  }
-  
-  section {
-    background-color: white;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    margin-top: 50px;
+    gap: 20px;
+}
+
+.businesses-cards section {
     border: 1px solid black;
-    border-radius: 4px;
-    box-shadow: 2px 2px 4px gray;
-    padding: 1rem;
-    max-width: 300px;
-  }
-  
-  .companynames {
-    padding-top: 1rem;
-  }
+    text-align: center;
+    padding: 10px;
+    background-color: #F4F4F4;
+    color: #1A1C20;
+    width: 100%;
+}
+
+.businesses-cards img {
+    margin: 10px 0 10px 0;
+}
+
+.businesses-cards h3 {
+    margin-top: 10px;
+}
+
+.businesses-cards p, a {
+    margin: 0;
+    padding: 5.5px;
+}
+
+.businesses-cards a {
+    color: #1A1C20;;
+}
+
+/* DIRECTORY PAGE --*/
+
+.view-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.view-menu button{
+    font-size: 1em;
+    padding: 10px;
+    margin: 0 10px 0 10px;
+    background-color: #F0A500;
+    color: #000000;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+
+.list section {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    border: none;
+    background-color: #F4F4F4;
+    color: black;
+    border-bottom: solid 1px gray;
+}
+
+.list section > * {
+    margin: 0 1rem;
+}
+
+.list section img {
+    display: none;
+}

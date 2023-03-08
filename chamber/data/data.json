@@ -1,100 +1,100 @@
 {
-    "companies": [
+    "businesses": [
       {
-        "companyname": "Alphagraphics – Rexburg",
+        "name": "Alphagraphics – Rexburg",
         "address": "80 S. 2nd West Rexburg, ID 83440",
-        "phonenumber": "208-356-0170",
+        "phone": "208-356-0170",
         "website": "https://www.alphagraphics.com/us-idaho-rexburg-us643",
         "logo": "https://rexburgchamber.org/wp-content/uploads/2022/10/alphagraphics-logo-600x147.webp",
-        "membershiplevel": "NP Membership (Free)"
+        "membership": "NP Membership (Free)"
       },
       {
-        "companyname": "Arnold Press",
+        "name": "Arnold Press",
         "address": "206 E Main St. Rexburg, ID 83440",
-        "phonenumber": "208-356-3020",
+        "phone": "208-356-3020",
         "website": "none",
         "logo": "https://rexburgchamber.org/wp-content/uploads/2022/05/arnold-press.jpg",
-        "membershiplevel": "NP Membership (Free)"
+        "membership": "NP Membership (Free)"
       },
       {
-        "companyname": "BYU-I KBYU FM 94.3",
+        "name": "BYU-I KBYU FM 94.3",
         "address": "154 E Viking St Drive Rexburg, ID 83440",
-        "phonenumber": "208-496-2909",
+        "phone": "208-496-2909",
         "website": "https://www.byui.edu/radio/stream-943",
         "logo": "https://rexburgchamber.org/wp-content/uploads/2012/03/byui.png",
-        "membershiplevel": "NP Membership (Free)"
+        "membership": "NP Membership (Free)"
       },
       {
-        "companyname": "BYU-I Scroll",
+        "name": "BYU-I Scroll",
         "address": "48 E 2nd South SPO 114 Brigham Young University Rexburg, ID 83440",
-        "phonenumber": "208-496-3737",
+        "phone": "208-496-3737",
         "website": "https://byuiscroll.org",
         "logo": "https://rexburgchamber.org/wp-content/uploads/2012/03/byui.png",
-        "membershiplevel": "NP Membership (Free)"
+        "membership": "NP Membership (Free)"
       },
       {
-        "companyname": "IF Signs",
+        "name": "IF Signs",
         "address": "1255 E 17th St Idaho Falls, ID 83404",
-        "phonenumber": "208-524-4124",
+        "phone": "208-524-4124",
         "website": "https://ifsigns.com",
         "logo": "https://rexburgchamber.org/wp-content/uploads/2022/05/ifsigns.jpg",
-        "membershiplevel": "NP Membership (Free)"
+        "membership": "NP Membership (Free)"
       },
       {
-        "companyname": "Kettle Embroidery",
+        "name": "Kettle Embroidery",
         "address": "61 E Main St Rexburg, ID 83440",
         "phonenumber": "208-656-9993",
         "website": "https://kettleembroidery.com/",
         "logo": "https://rexburgchamber.org/wp-content/uploads/2016/10/kettle-logo.jpg",
-        "membershiplevel": "NP Membership (Free)"
+        "membership": "NP Membership (Free)"
       },
       {
-        "companyname": "The Occasions Group",
+        "name": "The Occasions Group",
         "address": "01 Stationery Pl Rexburg, ID 83440",
-        "phonenumber": "208-359-1081",
+        "phone": "208-359-1081",
         "website": "https://www.theoccasionsgroup.com/",
         "logo": "https://rexburgchamber.org/wp-content/uploads/2022/05/occasions-group.jpg",
-        "membershiplevel": "NP Membership (Free)"
+        "membership": "NP Membership (Free)"
       },
       {
-        "companyname": "Premier Powder Coating & Custom Fabrication",
+        "name": "Premier Powder Coating & Custom Fabrication",
         "address": "115 N 2nd W Rexburg, ID 83440",
-        "phonenumber": "208-356-3263",
+        "phone": "208-356-3263",
         "website": "https://www.ppccfab.com",
         "logo": "https://rexburgchamber.org/wp-content/uploads/2020/04/premier-coating.jpg",
-        "membershiplevel": "NP Membership (Free)"
+        "membership": "NP Membership (Free)"
       },
       {
-        "companyname": "Sapien Designs",
+        "name": "Sapien Designs",
         "address": "50 Collage Ave Suite 101 Rexburg, ID 83440",
-        "phonenumber": "208-932-7287",
+        "phone": "208-932-7287",
         "website": "https://www.sapiendesigns.com/",
         "logo": "https://rexburgchamber.org/wp-content/uploads/2022/07/1585092406472.jpeg",
-        "membershiplevel": "NP Membership (Free)"
+        "membership": "NP Membership (Free)"
       },
       {
-        "companyname": "Yost Business Systems Inc.",
+        "name": "Yost Business Systems Inc.",
         "address": " 685 E Anderson St Idaho Falls, ID 83401",
-        "phonenumber": "208-552-7752",
+        "phone": "208-552-7752",
         "website": "https://www.yostonline.com",
         "logo": "https://rexburgchamber.org/wp-content/uploads/2022/05/Yost-2.png",
-        "membershiplevel": "NP Membership (Free)"
+        "membership": "NP Membership (Free)"
       },
       {
-        "companyname": "YESCO",
+        "name": "YESCO",
         "address": " 1530 W Sunnyside Idaho Falls, ID 83401",
-        "phonenumber": "208-522-7558",
+        "phone": "208-522-7558",
         "website": "https://www.yesco.com/idahofalls/",
         "logo": "https://rexburgchamber.org/wp-content/uploads/2022/05/yesco.png",
-        "membershiplevel": "NP Membership (Free)"
+        "membership": "NP Membership (Free)"
       },
       {
-        "companyname": "Zippy Ship n’ Copy",
+        "name": "Zippy Ship n’ Copy",
         "address": " 20 W 1st S Rexburg, ID 83440",
-        "phonenumber": "208-356-3388",
+        "phone": "208-356-3388",
         "website": "https://zippyshipandcopy.com",
         "logo": "https://rexburgchamber.org/wp-content/uploads/2022/05/zippy-800x618.jpg",
-        "membershiplevel": "NP Membership (Free)"
+        "membership": "NP Membership (Free)"
       }
     ]
   }

@@ -165,11 +165,19 @@ nav ul.open {display: block;}
   opacity: 1;
   }
 
-  /* FOR DIRECTORY PAGE */
+  /* FOR DIRECTORY PAGE -- GRID VIEW*/
   .cards {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1em;
     padding: 1em;
   }
+
+  /* FOR DIRECTORY PAGE -- LIST VIEW*/
+
+.list section {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  }
+
 }

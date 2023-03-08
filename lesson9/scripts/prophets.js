@@ -17,7 +17,7 @@ function displayProphets(prophets) {
     let birthDate = document.createElement('p');
     let birthPlace = document.createElement('p');
 
-    h2.textContent = `${prophet.name} (${prophet.birth}-${prophet.death})`;
+    h2.textContent = `${prophet.name} ${prophet.lastname} (${prophet.birthplace}-${prophet.death})`;
     portrait.setAttribute('src', prophet.imageurl);
     portrait.setAttribute('alt', `Portrait of ${prophet.name}`);
     portrait.setAttribute('loading', 'lazy');

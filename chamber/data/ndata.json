@@ -1,0 +1,76 @@
+{
+    "businesses": [
+        {
+            "name": "Lechnnoby",
+            "address": "Junin St. between Apure St. and Lara St",
+            "phone": "(+58) 412-192-9844",
+            "website": "https://www.facebook.com/profile.php?id=100089832190929",
+            "logo": "data/images/LECHNNOBY.png",
+            "membership": "Free"
+        },
+        {
+            "name": "Words and Contents",
+            "address": "Anaco Residences, E. Towe 1-C",
+            "phone": "(+58) 412-192-9568",
+            "website": "https://wordsandcontents.com/",
+            "logo": "data/images/wordsandcontents.png",
+            "membership": "Gold"
+        },
+        {
+            "name": "Completa Tu Tiempo",
+            "address": "Anaco, Sector Pueblo Nuevo",
+            "phone": "(+58) 414-253-9844",
+            "website": "https://www.instagram.com/completatutiempo/",
+            "logo": "data/images/completatutiempo.PNG",
+            "membership": "Gold"
+        },
+        {
+            "name": "Inspirate Business",
+            "address": "Brazil Street in front of CICPC",
+            "phone": "(+58) 424-820-9399",
+            "website": "https://www.facebook.com/profile.php?id=100089832190929",
+            "logo": "data/images/inspiratebusiness.png",
+            "membership": "Free"
+        },
+        {
+            "name": "U.E Jose Asunción Farrera",
+            "address": "Aragua St. with Cajigal St",
+            "phone": "(+58) 414-252-4454",
+            "website": "Not Yet",
+            "logo": "data/images/joseasuncionfarrera.png",
+            "membership": "Silver"
+        },
+        {
+            "name": "Ventas Anaco",
+            "address": "AV Merida in front of the Ateneo of Anaco",
+            "phone": "(+58) 412-185-7368",
+            "website": "https://www.instagram.com/ventasanacoca/",
+            "logo": "data/images/ventas-anaco.PNG",
+            "membership": "Silver"
+        },
+        {
+            "name": "Xbosservices",
+            "address": "C.C Anaco Center",
+            "phone": "(+58) 414-836-2823",
+            "website": "https://www.instagram.com/xbosservice/",
+            "logo": "data/images/xbosservices.png",
+            "membership": "Bronze"
+        },
+        {
+            "name": "Pizza Top",
+            "address": "Zulia Avenue with Sucre St.",
+            "phone": "(+58) 282-425-4875",
+            "website": "https://www.instagram.com/pizzatop.ca/",
+            "logo": "data/images/pizza-top.png",
+            "membership": "Bronze"
+        },
+        {
+            "name": "Don Pancho",
+            "address": "AV Zulia with 19 de Abril St.",
+            "phone": "(+58) 412-947-1322",
+            "website": "https://www.instagram.com/donpanchocafe/",
+            "logo": "data/images/don-pancho.png",
+            "membership": "Free"
+        }
+    ]
+}

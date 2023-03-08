@@ -58,7 +58,7 @@
         text-align: right;
     }
     
-    button {
+    header button {
         display: none;
     }
 
@@ -138,12 +138,10 @@
         font-size: 0.8em;
       }
 
-  /* FOR DIRECTORY PAGE */
-  .cards {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 1em;
-    padding: 1em;
+  /* FOR DIRECTORY PAGE - GRID VIEW */
+  #gridView, #listView {
+    visibility: visible;
   }
+
 }
 
