@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Montserrat:wght@600&family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Raleway:wght@200&display=swap');
+
+main {
+    max-width: 600px;
+    margin: 0 auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #FB8500;
+    color: white;   
+}
+
+h1, h2 {
+    font-family: 'Lato', sans-serif, 'Montserrat';
+}
+
+p, figcaption {
+    font-family: 'Raleway';
+}
+
+figure {
+    margin-left: 0;
+}
