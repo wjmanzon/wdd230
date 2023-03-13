@@ -77,7 +77,7 @@ nav ul.open {display: block;}
     grid-gap: 10px;
   }
 
-  .event, .weather, .join, .hero, .news-release, .spotlight-container {
+  .event, .weather, .join, .news-release, .spotlight-container {
     border: 1px solid black;
     padding: 10px;
     width: 100%;

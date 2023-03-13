@@ -1,4 +1,4 @@
-const temperature = document.getElementById("temperature").textContent;
+/* const temperature = document.getElementById("current-temp").textContent;
 const windSpeed = document.getElementById("wind-speed").textContent;
 const windChill = document.getElementById("wind-chill");
 
@@ -10,4 +10,4 @@ if (temperature <= 50 && windSpeed > 3) {
   windChill.textContent = `${parseInt(getWindChill(temperature, windSpeed))}°`;
 } else {
   windChill.textContent = "N/A";
-}
+} */

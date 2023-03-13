@@ -59,7 +59,7 @@ header, footer {
 }
 
 .site-title h1 {
-    font-size: 1em;
+    font-size: 0.8em;
     font-family: 'Lato', sans-serif, 'Montserrat';
     display: flex;
 }
@@ -76,7 +76,7 @@ nav ul {
 
 nav ul li a {
     display: block;
-    text-align: left;
+    text-align: center;
     padding: .8rem 2vw;
     text-decoration: none;
     color: #F4F4F4;
@@ -96,8 +96,8 @@ nav ul {display: none;}
 nav ul.open {display: block;}
 
 .facebook-icon, .linkedin-icon {
-    width: 2em;
-    height: 2em;
+    width: 1.5em;   
+    height: 1.5em;
 }
 
 .bottom-header {
@@ -111,11 +111,11 @@ nav ul.open {display: block;}
 }
 
 button {
-    margin: .2rem 2vw;
+    /* margin: .2rem 2vw; */
     background: transparent;
     color: #F0A500;
     border: none;
-    font-size: 2rem;
+    font-size: 1.5em;
 }
 
 footer {
@@ -176,8 +176,8 @@ main {
   grid-gap: 10px;
 }
 
-.event, .weather, .join, .hero, .news-release, .spotlight-container {
-  border: 1px solid black;
+.event, .weather, .join, .news-release, .spotlight-container {
+  border: 1px solid gray;
   padding: 10px;
   width: 100%;
 }
@@ -187,15 +187,25 @@ main {
   grid-column: 1 / 2;
   grid-row: 1 / 2;
   position: relative;
+  border-top: solid 1px gray;
 }
+
+.hero-title {
+    text-align: center;
+  }
 
 .hero-image {
     width: 100%;
-    object-fit: cover;
-    padding: 0;
-    margin: 0;
     z-index: -1;
+    margin-top: -3em;
 }
+
+.hero-image {
+    object-fit: cover;
+    margin: 0;
+    padding: 0;
+  }
+
 
 .event {
   grid-column: 1 / 2;
@@ -364,10 +374,10 @@ img[data-src] {
 }
 
 .businesses-cards section {
-    border: 1px solid black;
+    border: 1px solid gray;
     text-align: center;
     padding: 10px;
-    background-color: #F4F4F4;
+    background-color: white;
     color: #1A1C20;
     width: 100%;
 }

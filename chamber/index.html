@@ -53,13 +53,13 @@
 
             <div class="weather">
                 <h2>Weather</h2>
-                <img class="weather-icon" src="images/cloudy.png" alt="partly cloudy weather icon"> 
-                <h3>Partly Cloudy</h3>
-                <p><span id="temperature"> 10 </span> °F </p>
-                <p>Wind Speed:</p>
-                <p><span id="wind-speed"> 9 </span> m/h </p>
-                <p>Wind Chill:</p>
-                <p id="wind-chill"></p>
+                <figure>
+                    <img src="" alt="" id="weather-icon" />
+                    <figcaption></figcaption>
+                </figure>
+                <p>Temperature: <span id="current-temp"></span> &deg;F</p>
+                <p>Wind Speed: <span id="wind-speed"></span> m/h </p>
+                <p>Wind Chill: <span id="wind-chill"></span></p>
             </div>
 
             <div class="join">
@@ -77,6 +77,8 @@
             
             <div class="hero">
                 <picture>
+                    <h2 class="hero-title">Welcome to Rexburg</h2>
+                    <button class="hero-button"> Join the Chamber </button>
                     <source srcset="images/medium.png" media="(min-width: 400px) and (max-width: 799px)">
                     <source srcset="images/large.png" media="(min-width: 800px)">
                     <img class="hero-image" src="images/small.png" alt="Rexburg Chamber of Commerce Hero Image">
@@ -151,6 +153,7 @@
         </div>
     </footer>
     <script defer src="scripts/windchill.js"></script>
+    <script defer src="scripts/weatherapi.js"></script>
     <script defer src="scripts/main.js"></script>
 </body>
 </html>
