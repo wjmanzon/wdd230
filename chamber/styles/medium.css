@@ -68,7 +68,6 @@ nav ul.open {display: block;}
     display: inline;
 }
 
-/* TESTING ONLY */
 .home-main {
     padding: 20px;
     display: grid;
@@ -141,7 +140,6 @@ nav ul.open {display: block;}
 
 
   /* IMAGE HOVER EFFECT */
-  /* Container needed to position the overlay. Adjust the width as needed */
 .container {
   position: relative;
 }
