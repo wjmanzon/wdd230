@@ -77,8 +77,8 @@ nav ul.open {display: block;}
     grid-gap: 10px;
   }
 
-  .event, .weather, .join, .news-release, .spotlight-container {
-    border: 1px solid black;
+  .event, .weather, .join, .news-release {
+    background-color: #F4F4F4;
     padding: 10px;
     width: 100%;
   }
@@ -125,7 +125,7 @@ nav ul.open {display: block;}
   .spotlight-1, .spotlight-2, .spotlight-3 {
     width: 50%;
     padding: 10px;
-    border: 1px solid black;
+    border: solid 1px gray;
 }
 
   .spotlight-3 {
