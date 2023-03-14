@@ -341,7 +341,7 @@ img[data-src] {
     width: 100%;
     padding: 10px;
     border-radius: 5px;
-    border: 1px solid black;
+    border: 1px solid gray;
     margin-bottom: 20px;
     font-size: 16px;
     font-weight: 600;
@@ -356,7 +356,7 @@ img[data-src] {
     box-shadow: 0px 0px 5px #F0A500;
   }
   input[type="submit"] {
-    background-color: #F0A500;
+    background-color: #1A1C20;
     color: #F4F4F4;
     padding: 10px;
     border-radius: 5px;
@@ -367,8 +367,8 @@ img[data-src] {
     cursor: pointer;
   }
   input[type="submit"]:hover {
-    background-color: #1A1C20;
-  }
+    background-color: #F0A500;
+    color: #1A1C20;
 
   /* FOR THANK YOU PAGE */
 
