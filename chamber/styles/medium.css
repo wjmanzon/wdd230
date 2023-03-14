@@ -132,6 +132,15 @@ nav ul.open {display: block;}
     display: none;
   }
 
+/* JOIN PAGE */
+.join-main {
+  max-width: 800px;
+  border: solid 1px red;
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+}
+
+
   /* IMAGE HOVER EFFECT */
   /* Container needed to position the overlay. Adjust the width as needed */
 .container {

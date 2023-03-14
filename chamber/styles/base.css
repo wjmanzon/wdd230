@@ -182,6 +182,15 @@ main {
   width: 100%;
 }
 
+.spotlight-logo {
+    height: 50px;
+    margin-top: 1em;
+}
+
+.spotlight-title {
+    margin-top: 1em;
+}
+
 .hero {
   /*  min-height: 300px; */
   grid-column: 1 / 2;
@@ -320,6 +329,53 @@ img[data-src] {
   }
 
 /* FOR THE JOIN US PAGE */
+
+table {
+    margin-top: 3em;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  * {
+    font-family: 'Lato', sans-serif, 'Montserrat';
+  }
+
+  th, td {
+    text-align: center;
+    padding: 8px;
+    border: solid 1px black;
+  }
+  
+  th {
+    background-color: #FB8500;
+    color: black;
+  }
+  
+  th:first-child {
+    text-align: center;
+  }
+
+td:first-child {
+    text-align: left;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .check, .wrong {
+    font-size: 18px;
+  }
+  
+  .check {
+    color: green;
+  }
+  
+  .wrong {
+    color: red;
+  }
+
+
 .join-title, .thank-you-title, .directory-title {
     text-align: center;
   }
