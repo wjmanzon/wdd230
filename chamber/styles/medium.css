@@ -135,7 +135,6 @@ nav ul.open {display: block;}
 /* JOIN PAGE */
 .join-main {
   max-width: 800px;
-  border: solid 1px red;
   display: grid;
   grid-template-columns: 2fr 2fr;
 }
