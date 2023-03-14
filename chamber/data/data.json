@@ -6,7 +6,7 @@
         "phone": "208-356-0170",
         "website": "https://www.alphagraphics.com/us-idaho-rexburg-us643",
         "logo": "https://rexburgchamber.org/wp-content/uploads/2022/10/alphagraphics-logo-600x147.webp",
-        "membership": "NP Membership (Free)"
+        "membership": "Silver"
       },
       {
         "name": "Arnold Press",
@@ -14,7 +14,7 @@
         "phone": "208-356-3020",
         "website": "none",
         "logo": "https://rexburgchamber.org/wp-content/uploads/2022/05/arnold-press.jpg",
-        "membership": "NP Membership (Free)"
+        "membership": "Silver"
       },
       {
         "name": "BYU-I KBYU FM 94.3",
@@ -38,7 +38,7 @@
         "phone": "208-524-4124",
         "website": "https://ifsigns.com",
         "logo": "https://rexburgchamber.org/wp-content/uploads/2022/05/ifsigns.jpg",
-        "membership": "NP Membership (Free)"
+        "membership": "Gold"
       },
       {
         "name": "Kettle Embroidery",
@@ -46,7 +46,7 @@
         "phonenumber": "208-656-9993",
         "website": "https://kettleembroidery.com/",
         "logo": "https://rexburgchamber.org/wp-content/uploads/2016/10/kettle-logo.jpg",
-        "membership": "NP Membership (Free)"
+        "membership": "Silver"
       },
       {
         "name": "The Occasions Group",
@@ -54,7 +54,7 @@
         "phone": "208-359-1081",
         "website": "https://www.theoccasionsgroup.com/",
         "logo": "https://rexburgchamber.org/wp-content/uploads/2022/05/occasions-group.jpg",
-        "membership": "NP Membership (Free)"
+        "membership": "Gold"
       },
       {
         "name": "Premier Powder Coating & Custom Fabrication",
@@ -62,7 +62,7 @@
         "phone": "208-356-3263",
         "website": "https://www.ppccfab.com",
         "logo": "https://rexburgchamber.org/wp-content/uploads/2020/04/premier-coating.jpg",
-        "membership": "NP Membership (Free)"
+        "membership": "Silver"
       },
       {
         "name": "Sapien Designs",
@@ -70,7 +70,7 @@
         "phone": "208-932-7287",
         "website": "https://www.sapiendesigns.com/",
         "logo": "https://rexburgchamber.org/wp-content/uploads/2022/07/1585092406472.jpeg",
-        "membership": "NP Membership (Free)"
+        "membership": "Gold"
       },
       {
         "name": "Yost Business Systems Inc.",
@@ -78,7 +78,7 @@
         "phone": "208-552-7752",
         "website": "https://www.yostonline.com",
         "logo": "https://rexburgchamber.org/wp-content/uploads/2022/05/Yost-2.png",
-        "membership": "NP Membership (Free)"
+        "membership": "Silver"
       },
       {
         "name": "YESCO",
@@ -86,7 +86,7 @@
         "phone": "208-522-7558",
         "website": "https://www.yesco.com/idahofalls/",
         "logo": "https://rexburgchamber.org/wp-content/uploads/2022/05/yesco.png",
-        "membership": "NP Membership (Free)"
+        "membership": "Silver"
       },
       {
         "name": "Zippy Ship n’ Copy",
@@ -94,7 +94,7 @@
         "phone": "208-356-3388",
         "website": "https://zippyshipandcopy.com",
         "logo": "https://rexburgchamber.org/wp-content/uploads/2022/05/zippy-800x618.jpg",
-        "membership": "NP Membership (Free)"
+        "membership": "Gold"
       }
     ]
   }

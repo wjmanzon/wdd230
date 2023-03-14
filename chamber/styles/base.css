@@ -400,6 +400,7 @@ img[data-src] {
     background-color: white;
     color: #1A1C20;
     width: 100%;
+    border-radius: 5px;
 }
 
 .businesses-cards img {
@@ -449,7 +450,8 @@ img[data-src] {
     border: none;
     background-color: #F4F4F4;
     color: black;
-    border-bottom: solid 1px gray;
+    border-bottom: solid 1px #F0A500;
+    border-radius: 0;
 }
 
 .list section > * {
