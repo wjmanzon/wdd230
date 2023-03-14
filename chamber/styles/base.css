@@ -245,6 +245,8 @@ main {
   grid-row: 2 / 3;
 }
 
+
+
 .spotlight-1, .spotlight-2, .spotlight-3 {
     padding: 10px;
     border-bottom: solid 1px gray;
@@ -280,6 +282,10 @@ p, a {
     border-radius: 4px;
     text-decoration: none;
   }
+
+.join-image, .event-icon {
+    width: 120px;
+}
 
 .hero-button {
     position: absolute;
