@@ -92,14 +92,16 @@ nav ul li a {
     color: #F4F4F4;
 }
 
-nav ul li.active a {
+.active {
     background-color: #F0A500;
-    color: #fff;
+    color: #1A1C20;
+    font-weight: 900;
 }
 
 nav ul li a:hover {
     background-color: #F0A500;
     color: #1A1C20;
+    font-weight: 900;
 }
 
 nav ul {display: none;}
@@ -189,10 +191,11 @@ main {
   grid-template-columns: 1fr;
   grid-template-rows: auto auto auto auto auto;
   grid-gap: 10px;
+  background-color: #F4F4F4;
 }
 
 .event, .weather, .join, .news-release, .spotlight-container {
-  background-color: #F4F4F4;
+  background-color: white;
   padding: 10px;
   width: 100%;
 }
@@ -451,8 +454,8 @@ td:first-child {
 
   /* FOR DIRECTORY PAGE */
 
-.directory-main {
-    display: block;
+.directory-main, .join-main, .discover-main {
+    background-color: white;
 }
 
 .directory-main h2 {
