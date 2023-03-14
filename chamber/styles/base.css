@@ -128,6 +128,11 @@ button {
     font-size: 1.5em;
 }
 
+.credits {
+    color: #F4F4F4;
+    text-decoration: none;
+}
+
 footer {
     display: block;
 }
