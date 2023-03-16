@@ -570,6 +570,10 @@ a {
 
 /* FOR CONTACT PAGE */
 
+.contact-main {
+    padding-top: 3em;
+}
+
 .contact-description {
     padding-bottom: 2em;
 }
@@ -595,6 +599,10 @@ a {
 
 .contact-methods-list li {
     font-family: 'Raleway', sans-serif;
+}
+
+label {
+    font-size: 1em;
 }
 
 .form-group {
