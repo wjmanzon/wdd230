@@ -1,108 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Rexburg Chamber of Commerce Website">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Rexburg Chamber of Commerce Website" />
 
-    <link rel="icon" href="images/favicon.ico">
+    <link rel="icon" href="images/favicon.ico" />
 
-    <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/medium.css">
-    <link rel="stylesheet" href="styles/large.css"> 
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/base.css" />
+    <link rel="stylesheet" href="styles/medium.css" />
+    <link rel="stylesheet" href="styles/large.css" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Montserrat:wght@200;500&family=Open+Sans:wght@500&family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Montserrat:wght@200;500&family=Open+Sans:wght@500&family=Raleway:wght@500&display=swap"
+      rel="stylesheet"
+    />
 
     <title>Rexburg Chamber of Commerce</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <p class="banner"> Come join us for the chamber meet and greet on Monday at 7:00 PM. </p>
-        <div class="desktop-header">
-            <div class="top-left">
-                <img class="logo" src="images/logo.webp" alt="logo of Rexburg Chamber of Commerce"> 
-                <div class="site-title">
-                    <h1> Rexburg Chamber of Commerce </h1>
-                </div>
-            </div>
-            <div class="soc-med">
-                <a href="#"><img class="facebook-icon" src="images/fb.png" alt="Facebook icon"></a> 
-                <a href="#"><img class="linkedin-icon" src="images/li.png" alt="Linkedin icon"></a>               
-                <button id="hamburger-button">&#9776;</button>
-            </div>
-            <nav class="nav-bar">
-                <ul id="primaryNav">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a class="active" href="discover.html">Discover</a></li>
-                    <li><a href="join.html">Join</a></li>
-                    <li><a href="directory.html">Directory</a></li>
-                </ul>
-            </nav>
+      <p class="banner">
+        Come join us for the chamber meet and greet on Monday at 7:00 PM.
+      </p>
+      <div class="desktop-header">
+        <div class="top-left">
+          <img
+            class="logo"
+            src="images/logo.webp"
+            alt="logo of Rexburg Chamber of Commerce"
+          />
+          <div class="site-title">
+            <h1>Rexburg Chamber of Commerce</h1>
+          </div>
         </div>
-        <div class="bottom-header">
-            <p><span id="dateToday"></span></p>
+        <div class="soc-med">
+          <a href="#"
+            ><img class="facebook-icon" src="images/fb.png" alt="Facebook icon"
+          /></a>
+          <a href="#"
+            ><img class="linkedin-icon" src="images/li.png" alt="Linkedin icon"
+          /></a>
+          <button id="hamburger-button">&#9776;</button>
         </div>
+        <nav class="nav-bar">
+          <ul id="primaryNav">
+            <li><a href="index.html">Home</a></li>
+            <li><a class="active" href="discover.html">Discover</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="directory.html">Directory</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="bottom-header">
+        <p><span id="dateToday"></span></p>
+      </div>
     </header>
     <main class="discover-main">
-        <h1 class="discover-title"> Discover Rexburg </h1>
-        <p id="lastVisit"></p>
-            <div class="container">
-                <img class="discover-image" src="images/placeholder800.png" data-src="images/byui.jpg" alt="BYU-Idaho" loading="lazy">
-                <h2 class="overlay">BYU-Idaho</h2>
-                <p class="description">Rexburg is a small city located in Madison County, Idaho, with a population of approximately 29,000 people as of 2021. It is home to Brigham Young University-Idaho, a private university affiliated with The Church of Jesus Christ of Latter-day Saints.</p>
-            </div>
-            <div class="container">
-                <img class="discover-image" src="images/placeholder800.png" data-src="images/students.jpg" alt="students" loading="lazy">
-                <h2 class="overlay">Students</h2>
-                <p class="description">The city has a thriving student community, with a large percentage of the population made up of college students. As a result, there are many affordable housing options, restaurants, and entertainment venues that cater to students.</p>
-            </div>
-            <div class="container">
-                <img class="discover-image" src="images/placeholder800.png" data-src="images/yellowstone.jpg" alt="Yellowstone National Park" loading="lazy">
-                <h2 class="overlay">Yellowstone National Park</h2>
-                <p class="description">Rexburg is surrounded by stunning natural beauty, with many outdoor recreational opportunities, including skiing, snowmobiling, hiking, and fishing. Some popular tourist spots in the area include Yellowstone National Park, Grand Teton National Park, and the St. Anthony Sand Dunes.</p>
-            </div>
-            <div class="container">
-                <img class="discover-image" src="images/placeholder800.png" data-src="images/legacy-flight-museum.jpg" alt="Legacy Flight Museum" loading="lazy">
-                <h2 class="overlay">Legacy Flight Museum</h2>
-                <p class="description">The city is also home to the Legacy Flight Museum, which features a collection of vintage aircraft from World War II and the Korean War. The museum is open to the public and offers guided tours and educational programs. </p>
-            </div>
-            <div class="container">
-                <img class="discover-image" src="images/placeholder800.png" data-src="images/rexburg-temple.jpg" alt="Rexburg Temple" loading="lazy">
-                <h2 class="overlay">Rexburg, ID Temple</h2>
-                <p class="description">Additionally, the Rexburg Idaho Temple, a beautiful Latter-day Saint temple, is a popular destination for visitors and locals alike.</p>
-            </div> 
+      <h1 class="discover-title">Discover Rexburg</h1>
+      <p id="lastVisit"></p>
+      <div class="container">
+        <img
+          class="discover-image"
+          src="images/placeholder800.png"
+          data-src="images/byui.jpg"
+          alt="BYU-Idaho"
+          loading="lazy"
+        />
+        <h2 class="overlay">BYU-Idaho</h2>
+        <p class="description">
+          Rexburg is a small city located in Madison County, Idaho, with a
+          population of approximately 29,000 people as of 2021. It is home to
+          Brigham Young University-Idaho, a private university affiliated with
+          The Church of Jesus Christ of Latter-day Saints.
+        </p>
+      </div>
+      <div class="container">
+        <img
+          class="discover-image"
+          src="images/placeholder800.png"
+          data-src="images/students.jpg"
+          alt="students"
+          loading="lazy"
+        />
+        <h2 class="overlay">Students</h2>
+        <p class="description">
+          The city has a thriving student community, with a large percentage of
+          the population made up of college students. As a result, there are
+          many affordable housing options, restaurants, and entertainment venues
+          that cater to students.
+        </p>
+      </div>
+      <div class="container">
+        <img
+          class="discover-image"
+          src="images/placeholder800.png"
+          data-src="images/yellowstone.jpg"
+          alt="Yellowstone National Park"
+          loading="lazy"
+        />
+        <h2 class="overlay">Yellowstone National Park</h2>
+        <p class="description">
+          Rexburg is surrounded by stunning natural beauty, with many outdoor
+          recreational opportunities, including skiing, snowmobiling, hiking,
+          and fishing. Some popular tourist spots in the area include
+          Yellowstone National Park, Grand Teton National Park, and the St.
+          Anthony Sand Dunes.
+        </p>
+      </div>
+      <div class="container">
+        <img
+          class="discover-image"
+          src="images/placeholder800.png"
+          data-src="images/legacy-flight-museum.jpg"
+          alt="Legacy Flight Museum"
+          loading="lazy"
+        />
+        <h2 class="overlay">Legacy Flight Museum</h2>
+        <p class="description">
+          The city is also home to the Legacy Flight Museum, which features a
+          collection of vintage aircraft from World War II and the Korean War.
+          The museum is open to the public and offers guided tours and
+          educational programs.
+        </p>
+      </div>
+      <div class="container">
+        <img
+          class="discover-image"
+          src="images/placeholder800.png"
+          data-src="images/rexburg-temple.jpg"
+          alt="Rexburg Temple"
+          loading="lazy"
+        />
+        <h2 class="overlay">Rexburg, ID Temple</h2>
+        <p class="description">
+          Additionally, the Rexburg Idaho Temple, a beautiful Latter-day Saint
+          temple, is a popular destination for visitors and locals alike.
+        </p>
+      </div>
     </main>
     <footer>
-        <div class="top-footer">
-            <div class="top-left-footer">
-                <img class="logo" src="images/logo.webp" alt="logo of Rexburg Chamber of Commerce">
-                <div class="address-block">    
-                    <h4> Rexburg Chamber of Commerce </h4>
-                    <p> 123 Main St.</p>
-                    <p> Rexburg, Idaho 12345 </p>
-                </div>
-            </div>
-            
-            <div class="contact-info">
-                <p>info@rexburgchamber.org</p>
-                <p>+123-4567-8987</p>
-                <a href="#"> Location Map </a>
-            </div>
+      <div class="top-footer">
+        <div class="top-left-footer">
+          <img
+            class="logo"
+            src="images/logo.webp"
+            alt="logo of Rexburg Chamber of Commerce"
+          />
+          <div class="address-block">
+            <h4>Rexburg Chamber of Commerce</h4>
+            <p>123 Main St.</p>
+            <p>Rexburg, Idaho 12345</p>
+          </div>
         </div>
-        <div class="bottom-footer">
-            <p> &copy; <span id="copyrightYear"></span> Rexburg Chamber of Commerce <span class="vertical-line"> | </span></p>
-            <p> Wilson Jr Manzon <span class="vertical-line"> | </span></p>   
-            <p> WDD 230 Project <span class="vertical-line"> | </span></p>    
-            <p> Last Modification: <span id="lastModified"></span></p>
-            <a class="credits" href="https://openweathermap.org"> Credits to OpenWeatherMap.Org</a>
+
+        <div class="contact-info">
+          <p>info@rexburgchamber.org</p>
+          <p>+123-4567-8987</p>
+          <a href="#"> Location Map </a>
         </div>
+      </div>
+      <div class="bottom-footer">
+        <p>
+          &copy; <span id="copyrightYear"></span> Rexburg Chamber of Commerce
+          <span class="vertical-line"> | </span>
+        </p>
+        <p>Wilson Jr Manzon <span class="vertical-line"> | </span></p>
+        <p>WDD 230 Project <span class="vertical-line"> | </span></p>
+        <p>Last Modification: <span id="lastModified"></span></p>
+        <a class="credits" href="https://openweathermap.org">
+          Credits to OpenWeatherMap.Org</a
+        >
+      </div>
     </footer>
     <script defer src="scripts/lastvisit.js"></script>
     <script defer src="scripts/lazyload.js"></script>
     <script defer src="scripts/main.js"></script>
-</body>
+  </body>
 </html>

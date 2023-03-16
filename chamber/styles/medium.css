@@ -1,74 +1,77 @@
 /* tablet views */
 @media only screen and (min-width: 37.5em) {
-
-.desktop-header {
+  .desktop-header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
-}
+  }
 
-.site-title {
+  .site-title {
     width: 130px;
-}
+  }
 
-.site-title h1 {
+  .site-title h1 {
     margin: auto 0;
     font-size: 1em;
-}
+  }
 
-nav ul {
+  nav ul {
     display: flex;
     justify-content: center;
     margin: 0 auto;
-}
+  }
 
-nav ul li a {
+  nav ul li a {
     border: none;
-}
+  }
 
-nav ul {display: none;}
-nav ul.open {display: block;}
+  nav ul {
+    display: none;
+  }
+  nav ul.open {
+    display: block;
+  }
 
-.top-footer {
+  .top-footer {
     display: flex;
     margin: 0;
     padding: 0;
-}
+  }
 
-.address-block {
+  .address-block {
     text-align: left;
     margin-left: 0;
     margin-top: auto;
     margin-bottom: auto;
-}
+  }
 
-.contact-info {
+  .contact-info {
     text-align: center;
     margin-left: 0;
     margin-top: auto;
     margin-bottom: auto;
-}
+  }
 
-.top-left-footer {
+  .top-left-footer {
     display: flex;
     margin-left: 0;
-}
+  }
 
-.bottom-footer {
+  .bottom-footer {
     width: 70%;
     text-align: center;
     margin: 0 auto;
-}
+  }
 
-.bottom-footer p {
+  .bottom-footer p {
     display: inline;
-}
+  }
 
-.vertical-line {
+  .vertical-line {
     display: inline;
-}
+  }
 
-.home-main {
+  .home-main {
     padding: 20px;
     display: grid;
     grid-template-columns: 2fr;
@@ -76,7 +79,10 @@ nav ul.open {display: block;}
     grid-gap: 10px;
   }
 
-  .event, .weather, .join, .news-release {
+  .event,
+  .weather,
+  .join,
+  .news-release {
     padding: 10px;
     width: 100%;
   }
@@ -120,54 +126,55 @@ nav ul.open {display: block;}
     width: 100%;
   }
 
-  .spotlight-1, .spotlight-2, .spotlight-3 {
+  .spotlight-1,
+  .spotlight-2,
+  .spotlight-3 {
     width: 50%;
     padding: 10px;
     border: solid 1px gray;
-}
+  }
 
   .spotlight-3 {
     display: none;
   }
 
-/* JOIN PAGE */
-.join-main {
-  max-width: 800px;
-  display: grid;
-  grid-template-columns: 2fr 2fr;
-}
-
+  /* JOIN PAGE */
+  .join-main {
+    max-width: 800px;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+  }
 
   /* IMAGE HOVER EFFECT */
-.container {
-  position: relative;
-}
+  .container {
+    position: relative;
+  }
 
-/* Make the image to responsive *
+  /* Make the image to responsive *
 .image {
   display: block;
 } */
 
-/* The overlay effect - lays on top of the container and over the image */
-.overlay {
-  visibility: visible;
-  font-family: 'Lato', sans-serif;
-  position: absolute;
-  top: 0;
-  background: black; /* Black see-through */
-  color: #F0A500;
-  width: 100%;
-  transition: .5s ease;
-  opacity:0;
-  color: white;
-  font-size: 20px;
-  padding: 20px;
-  text-align: center;
-}
+  /* The overlay effect - lays on top of the container and over the image */
+  .overlay {
+    visibility: visible;
+    font-family: "Lato", sans-serif;
+    position: absolute;
+    top: 0;
+    background: black; /* Black see-through */
+    color: #f0a500;
+    width: 100%;
+    transition: 0.5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
 
-/* When you mouse over the container, fade in the overlay title */
-.container:hover .overlay {
-  opacity: 1;
+  /* When you mouse over the container, fade in the overlay title */
+  .container:hover .overlay {
+    opacity: 1;
   }
 
   /* FOR DIRECTORY PAGE -- GRID VIEW*/
@@ -180,9 +187,8 @@ nav ul.open {display: block;}
 
   /* FOR DIRECTORY PAGE -- LIST VIEW*/
 
-.list section {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  .list section {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
   }
-
 }
