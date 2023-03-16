@@ -1,8 +1,8 @@
-/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  *
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
 html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
-/*----------- apply a natural box layout model to all elements --------------*
-* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; } */
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 * {
   max-width: 1200px;
@@ -220,7 +220,7 @@ main {
   grid-column: 1 / 2;
   grid-row: 1 / 2;
   position: relative;
-  color: black;
+  color: #1a1c20;
   background-image: url("../images/rexburg-temple.webp");
   min-height: 30em;
   width: 100%;
@@ -382,12 +382,12 @@ th,
 td {
   text-align: center;
   padding: 8px;
-  border: solid 1px black;
+  border: solid 1px #1a1c20;
 }
 
 th {
   background-color: #fb8500;
-  color: black;
+  color: #1a1c20;
 }
 
 th:first-child {
@@ -539,7 +539,7 @@ a {
   padding: 10px;
   margin: 0 10px 0 10px;
   background-color: #f0a500;
-  color: #000000;
+  color: #1a1c20;
 }
 
 .list {
@@ -554,7 +554,7 @@ a {
   text-align: left;
   border: none;
   background-color: #f4f4f4;
-  color: black;
+  color: #1a1c20;
   border-bottom: solid 1px #f0a500;
   border-radius: 0;
 }
