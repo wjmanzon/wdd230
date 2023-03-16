@@ -566,3 +566,42 @@ a {
 .list section img {
   display: none;
 }
+
+/* FOR CONTACT PAGE */
+
+.form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+  }
+  
+  button[type="submit"] {
+    background-color: #1a1c20;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #f0a500;
+    color: #1a1c20;
+  }
+  
+  #form-message {
+    padding-top: 1em;
+  }
