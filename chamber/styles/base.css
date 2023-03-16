@@ -474,7 +474,8 @@ input[type="submit"]:hover {
 
 .directory-main,
 .join-main,
-.discover-main {
+.discover-main, 
+.contact-main {
   background-color: white;
 }
 
@@ -568,6 +569,33 @@ a {
 }
 
 /* FOR CONTACT PAGE */
+
+.contact-description {
+    padding-bottom: 2em;
+}
+
+.contact-questions-list li {
+    font-family: 'Raleway', sans-serif;
+    margin-left: 1.2em;
+}
+
+.contact-questions-list {
+    font-family: 'Raleway', sans-serif;
+    margin-left: 1.2em;
+    padding-bottom: 2em;
+}
+
+.contact-methods-list {
+    font-family: 'Raleway', sans-serif;
+    list-style: none;
+    margin-left: 1.2em;
+    padding-bottom: 2em;
+}
+
+
+.contact-methods-list li {
+    font-family: 'Raleway', sans-serif;
+}
 
 .form-group {
     margin-bottom: 20px;
