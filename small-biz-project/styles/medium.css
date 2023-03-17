@@ -15,7 +15,8 @@
         font-family: 'Lora', sans-serif;
         font-size: 14px;
         display: flex;
-        align-items: center;
+        align-items: left;
+        padding-left: .1em;
       }
       
       .contact p {
@@ -42,6 +43,7 @@
       .logo {
         display: flex;
         align-items: center;
+        padding-left: 1em;
       }
       
       .logo img {
@@ -53,6 +55,17 @@
         display: flex;
         flex-direction: row;
         list-style: none;
+      }
+
+      nav ul li a {
+        padding-left: 1em;
+        padding-right: 0;
+        margin: 0;
+      }
+
+      nav ul li{
+        padding-right: .7em;
+        margin: 0;
       }
 
       #hamburger-button {
