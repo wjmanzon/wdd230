@@ -132,6 +132,22 @@ button {
   font-size: 1.5em;
 }
 
+#hamburger-button span:nth-child(1) {
+  display: block;
+}
+
+#hamburger-button span:nth-child(2) {
+  display: none;
+}
+
+#hamburger-button.open span:nth-child(1) {
+  display: none;
+}
+
+#hamburger-button.open span:nth-child(2) {
+  display: block;
+}
+
 .credits {
   color: #f4f4f4;
   text-decoration: none;

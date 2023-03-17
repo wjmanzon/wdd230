@@ -17,15 +17,82 @@
     providing images of fruit and produce including specialty 
     fruit drinks that are ready to serve and made fresh. 
     The page must contain the following.
+
         Readily available navigation and business contact information.
-        Summary information about any coastal area or areas in the southern California coast of your choosing.
-        A call to action to make your own fruit drink mix. This link can link to the 📄Fresh page.
         Social media links (at least three) (no account necessary).
-        The weather card(s) must summarize the current weather conditions for Carlsbad. Use the OpenWeatherMap APIs (weather, forecast/daily) and include:
+
+        Summary information about any coastal area or areas in the southern California coast of your choosing.
+        The weather card(s) must summarize the current weather conditions for Carlsbad. 
+            Use the OpenWeatherMap APIs (weather, forecast/daily) and include:
             the current temperature,
             the condition description,
             the humidity, and
             a three(3) day temperature forecast.
-        Include an information card about the total number of specialty drinks that the current user has submitted from the Fresh page form. This information should just be stored locally, with the user's agent (in their browser).-->
+
+        A call to action to make your own fruit drink mix. This link can link to the 📄Fresh page.
+        Include an information card about the total number of specialty drinks that the current 
+            user has submitted from the Fresh page form. This information should just be stored locally,
+            with the user's agent (in their browser).-->
 
 <!--Include the last modified date of the page in the footer using JavaScript.-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bountiful Foods is small business specializing in organic, locally grown foods.">
+
+    <link rel="icon" href="images/favicon.ico" />
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Poppins:wght@700&display=swap" rel="stylesheet">
+
+    <title>Bountiful Foods</title>
+</head>
+<body>
+    <header>
+  <div class="top">
+    <div class="contact">
+      <p><i class="fa fa-phone"></i> Phone: (123) 456-7890</p>
+      <p><i class="fa fa-envelope"></i> Email: info@company.com</p>
+    </div>
+    <div class="social-media">
+      <a href="#"><img class="fa fa-facebook" src="images/facebook.png"></a>
+      <a href="#"><img class="fa fa-twitter" src="images/twitter.png"></a>
+      <a href="#"><img class="fa fa-instagram" src="images/instagram.png"></a>
+      <a href="#"><img class="fa fa-linkedin" src="images/linkedin.png"></a>
+    </div>
+  </div>
+  <div class="bottom">
+    <div class="logo">
+      <img src="images/bf-food-logo.png" alt="Bountiful Foods Logo">
+      <h1>Bountiful Foods</h1>
+    </div>
+    <nav>
+      <ul id="primary-nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Fresh</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </nav>
+    <button id="hamburger-button"><span>&#9776;</span><span>&#215;</span></button>
+  </div>
+</header>
+
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
+    <script defer src="scripts/hamburger.js"></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+/* tablet views */
+@media only screen and (min-width: 37.5em) {
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 120px;
+      }
+      
+      .top {
+        padding: 10px;
+      }
+      
+      .contact {
+        font-family: 'Lora', sans-serif;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+      }
+      
+      .contact p {
+        margin: 0;
+      }
+      
+      .contact i {
+        margin-right: 15px;
+      }
+    
+      .social-media {
+        display: flex;
+      }
+      
+      .social-media img {
+        width: 2rem;
+        margin-right: 10px;
+      }
+      
+      .bottom {
+        flex-direction: row;
+      }
+      
+      .logo {
+        display: flex;
+        align-items: center;
+      }
+      
+      .logo img {
+        height: 50px;
+        margin-right: 10px;
+      }
+
+      nav ul#primary-nav{
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+      }
+
+      #hamburger-button {
+        display: none;
+    }
+
+
+}

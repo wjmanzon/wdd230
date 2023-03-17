@@ -39,7 +39,7 @@
     display: block;
   }
 
-  nav ul {
+  nav ul#primaryNav {
     display: flex;
     justify-content: space-around;
   }
