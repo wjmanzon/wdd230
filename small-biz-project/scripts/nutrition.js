@@ -44,24 +44,6 @@ createDrinkButton.addEventListener("click", function(event) {
   displayOutput();
 });
 
-/*
-async function displayOutput() {
-  const response = await fetch(link);
-  const data = await response.json();
-  const selectedFruits = [];
-  
-  for (let i = 1; i <= 3; i++) {
-    const fruit = document.getElementById("fruit" + i);
-    const index = fruit.selectedIndex;
-    selectedFruits.push({
-      name: fruit.options[index].value,
-      carbs: data.fruit[index].nutritions.carbohydrates,
-      protein: data.fruit[index].nutritions.protein,
-      fat: data.fruit[index].nutritions.fat,
-      sugar: data.fruit[index].nutritions.sugar,
-      calories: data.fruit[index].nutritions.calories
-    });
-  } */
   async function displayOutput() {
     const response = await fetch(link);
     const data = await response.json();
