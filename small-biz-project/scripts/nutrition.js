@@ -57,7 +57,8 @@ async function displayOutput() {
       carbs: data.fruit[index].nutritions.carbohydrates,
       protein: data.fruit[index].nutritions.protein,
       fat: data.fruit[index].nutritions.fat,
-      sugar: data.fruit[index].nutritions.sugar
+      sugar: data.fruit[index].nutritions.sugar,
+      calories: data.fruit[index].nutritions.calories
     });
   }
   
@@ -93,12 +94,14 @@ async function displayOutput() {
   const prott = document.createElement('p');
   const fatt = document.createElement('p');
   const sugg = document.createElement('p');
+  const cal = document.createElement('p');
   
   const totalCarbs = selectedFruits.reduce((acc, f) => acc + f.carbs, 0);
   const totalProtein = selectedFruits.reduce((acc, f) => acc + f.protein, 0);
   const totalFat = selectedFruits.reduce((acc, f) => acc + f.fat, 0);
   const totalSugar = selectedFruits.reduce((acc, f) => acc + f.sugar, 0);
-  
+  const totalCalories = selectedFruits.reduce((acc, f) => acc + f.calories, 0);
+
   personalHeading.textContent = "Your Information:";
   fruitHeading.textContent = "Selected Fruits:";
   instructionsHeading.textContent = "Instructions:";
@@ -117,6 +120,7 @@ async function displayOutput() {
   prott.textContent = "Total Protein: " + totalProtein;
   fatt.textContent = "Total Fat: " + totalFat;
   sugg.textContent = "Total Sugar: " + totalSugar;
+  cal.textContent = "Total Calories: " + totalCalories;
   
   divContainer.appendChild(personalHeading);
   divContainer.appendChild(namee);
@@ -137,5 +141,6 @@ async function displayOutput() {
   divContainer.appendChild(prott);
   divContainer.appendChild(fatt);
   divContainer.appendChild(sugg);
+  divContainer.appendChild(cal);
   }
   
