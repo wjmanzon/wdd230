@@ -6,11 +6,11 @@
   }
 
   * {
-    font-family: 'Chelsea Market', cursive;
+    font-family: 'Chelsea Market', sans-serif;
   }
 
   h1, h2, h3, h4, h5, h6, a {
-    font-family: 'Chelsea Market', cursive;
+    font-family: 'Chelsea Market', sans-serif;
     color: white;
   }
 
@@ -258,7 +258,7 @@
   grid-column: 2/3;
 }
 
-.cta-button,  .submitBtn {
+.bf-button {
   display: block;
   color: white;
   background-color:#4CAF50;
@@ -406,12 +406,71 @@
 }
 
 #output {
-  border: solid 1px #20665C;
   border-radius: 15px;
-  padding: 25px;
+  margin: 25px;
 }
 
 #output h3 {
   color: #20665C;
+  padding-top: 15px;
+}
+
+/* ABOUT */
+.containerrr {
+  margin: 0 35px;
+}
+
+.history {
+  margin-top: 40px;
+}
+
+.bottom-element {
+  margin-bottom: 25px;
+}
+
+.top-element {
+  margin: 0;
+  padding: 0;
+}
+
+.green-heading {
+  color: #20665C;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.google-map {
+  padding-bottom: 50%;
+  position: relative;
+}
+
+.google-map iframe {
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+}
+
+#fform {
+  max-width: 600px;
+  margin: 0 auto 50px;
+  padding: 20px;
+  background: #f7f7f7;
+  border-radius: 15px;
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+}
+
+input[type=text], input[type=email], input[type=tel], select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 0px;
+  margin-bottom: 16px;
+}
+
+.labell {
   padding-top: 15px;
 }

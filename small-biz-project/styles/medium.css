@@ -173,4 +173,49 @@ textarea {
 
 }
 
+/* ABOUT */
+.containerrr {
+  max-width: 700px;
+  margin: 0 auto 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.history-image {
+  margin-top: 35px;
+}
+
+.history {
+  margin-right: 35px;
+  max-width: 300px;
+}
+
+.col1 {
+  grid-column: 1/2;
+}
+
+.col {
+  grid-column: 2/3;
+}
+
+.row2 {
+  grid-row: 2/3;
+}
+
+.row4 {
+  grid-row: 4/5;
+}
+
+.franchise p {
+  max-width: 600px;
+  margin: 0 auto 50px;
+}
+
+#fform {
+  margin: 0 auto 50px;
+  max-width: 600px;
+
+}
+
 }

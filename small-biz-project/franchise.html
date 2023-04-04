@@ -1,13 +1,13 @@
-<!--If necessary, include a resource/attribution page 
-    that references outside content as a link in the footer.
-    This supplement page does not need to be styled.-->
+<!--📄 The About Us page provides historical information 
+    about the company and area plus contact information, 
+    and a Google Map and other relevant content.-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Attritution page for Bountiful Foods">
+    <meta name="description" content="About Bountiful Foods">
     
     <link rel="icon" href="images/favicon.ico" />
 
@@ -19,8 +19,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Gravitas+One&display=swap" rel="stylesheet">
-
-    <title>Attribution Page</title>
+    
+    <title>About Bountiful Foods</title>
 </head>
 <body>
     <header>
@@ -53,7 +53,33 @@
 </header>
 
     <main>
-
+      <h2 class="green-heading">Franchise Form</h2>
+      <form id="fform" method="post">
+        <label class="labell" for="first-name">First Name</label>
+        <input type="text" id="first-name" name="first-name" placeholder="Your first name.." required>
+        
+        <label class="labell" for="last-name">Last Name</label>
+        <input type="text" id="last-name" name="last-name" placeholder="Your last name.." required>
+    
+        <label class="labell" for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone" placeholder="Your phone number.." required>
+    
+        <label class="labell" for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="Your email address.." required>
+    
+        <label class="labell" for="franchise-options">Franchise Options</label>
+        <select class="labell" id="franchise-options" name="franchise-options">
+          <option value="Option 0">Select Franchise</option>
+          <option value="Option 1">Single Unit</option>
+          <option value="Option 2">Multi Unit</option>
+          <option value="Option 3">Area Development</option>
+          <option value="Option 4">Master</option>
+        </select>
+    
+        <input type="submit" value="Submit" class="f-button bottom-element bf-button">
+      </form>
+      
+		
     </main>
     <footer>
       <div class="footer-top">
@@ -75,5 +101,6 @@
     </footer>
     <script defer src="scripts/hamburger.js"></script>
     <script defer src="scripts/main.js"></script>
+    <script defer src="scripts/franchise.js"></script>
 </body>
 </html>
