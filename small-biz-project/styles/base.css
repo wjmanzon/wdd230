@@ -223,8 +223,6 @@
   color: white;
 }
 
-
-
 .fruits-small-container {
   grid-column: 1/2;
   margin: 150px 15px;
@@ -314,10 +312,6 @@
   border: 1px solid #20665C;
   border-radius: 15px;
   box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
-}
-
-.card:hover {
-
 }
 
 .card:hover, .bf-button:hover {
@@ -446,7 +440,7 @@
 }
 
 .history {
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .bottom-element {

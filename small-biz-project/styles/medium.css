@@ -182,11 +182,11 @@ textarea {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-  gap: 20px;
+  gap: 30px;
 }
 
 .history-image {
-  margin-top: 35px;
+  margin-top: 25px;
   width: 100%;
 }
 
