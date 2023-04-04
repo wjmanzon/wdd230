@@ -3,10 +3,7 @@
     .fruits-container {
         grid-template-columns: 2fr 1fr;
       }
-      
-      .fruits-heading, .fruits-par {
-        margin-right: 40px 0;
-      }
+    
       
       .fruits-small-container {
         grid-column: 2/3;

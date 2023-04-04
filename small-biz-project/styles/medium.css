@@ -16,7 +16,6 @@
         font-family: 'Lora', sans-serif;
         font-size: 14px;
         display: flex;
-        align-items: left;
         padding-left: 0;
       }
       
@@ -136,7 +135,7 @@ textarea {
 }
 
 .fruits-heading, .fruits-par {
-  margin-right: 40px 0;
+  margin-right: 40px;
 }
 
 .fruits-small-container {
