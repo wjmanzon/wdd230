@@ -359,15 +359,15 @@ picture {
   width: 100%;
 }
 
+.description {
+  padding-bottom: 20px;
+  font-family: "Raleway";
+}
+
 .discover-image {
   width: 100%;
   filter: blur(0em);
   transition: filter 0.5s;
-}
-
-.description {
-  padding-bottom: 20px;
-  font-family: "Raleway";
 }
 
 img[data-src] {

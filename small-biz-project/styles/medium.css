@@ -94,19 +94,21 @@ form {
   margin: 0 auto;
 }
 label {
-  display: inline-block;
+  display: block;
   margin-right: 10px;
 }
+
 input[type="text"],
 input[type="email"],
 input[type="tel"],
 textarea {
-  width: 100%;
-  padding: 10px;
   box-sizing: border-box;
+  min-width: 560px;
+  padding: 10px;
+  margin: 0;
   border-radius: 5px;
   border: 1px solid #ccc;
-  margin-bottom: 10px;
+
 }
 
 /* MAIN */
@@ -175,19 +177,21 @@ textarea {
 
 /* ABOUT */
 .containerrr {
-  max-width: 700px;
-  margin: 0 auto 50px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 25px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  gap: 20px;
 }
 
 .history-image {
   margin-top: 35px;
+  width: 100%;
 }
 
 .history {
-  margin-right: 35px;
   max-width: 300px;
 }
 
@@ -210,6 +214,7 @@ textarea {
 .franchise p {
   max-width: 600px;
   margin: 0 auto 50px;
+  padding: 25px;
 }
 
 #fform {

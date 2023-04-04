@@ -80,7 +80,7 @@
     text-decoration: none;
   }
   
-  nav a:hover {
+  nav a:hover, .active {
     color: #8FB46A;
     font-size: 1.2em;
   }
@@ -168,6 +168,7 @@
     margin-bottom: 20px;
     border-radius: 15px;
     border: solid 1px #0A555F;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
   }
 
   legend {
@@ -269,6 +270,7 @@
   padding: 10px;
   margin: 0 auto 50px;
   width: fit-content;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
 }
 
 .hero-title {
@@ -304,23 +306,44 @@
   color:#20665C;
 }
 
-  .card {
+.card {
   display: block;
-  width: 150px;
-  height: 160px;
+  width: 140px;
   margin: 5px auto;
-  padding: 10px;
+  padding: 20px;
   border: 1px solid #20665C;
   border-radius: 15px;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+}
+
+.card:hover {
+
+}
+
+.card:hover, .bf-button:hover {
+  animation: bounce 0.5s;
+  transform-origin: center bottom;
+}
+
+@keyframes bounce {
+  0% {
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: scale(1.1, 0.9);
+  }
+  100% {
+    transform: scale(1, 1);
+  }
 }
 
 .cardd .card p {
-  font-size: 2em;
+  font-size: 1em;
   color:black;
 }
 
 .card h2 {
-  font-size: 1em;
+  font-size: 1.2em;
   margin-top: 15px;
   text-align: center;
   color:#20665C;
@@ -405,6 +428,10 @@
   margin: 10px 25px 50px 25px;
 }
 
+.display-count {
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+}
+
 #output {
   border-radius: 15px;
   margin: 25px;
@@ -458,7 +485,7 @@
   padding: 20px;
   background: #f7f7f7;
   border-radius: 15px;
-  box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
 }
 
 input[type=text], input[type=email], input[type=tel], select {
@@ -473,4 +500,26 @@ input[type=text], input[type=email], input[type=tel], select {
 
 .labell {
   padding-top: 15px;
+}
+
+.franchise p {
+  padding: 20px;
+}
+
+.attrib {
+  max-width: 700px;
+  padding: 20px;
+  margin: 20px auto;
+}
+
+
+/* LAZY LOADING */
+.lazy {
+  width: 100%;
+  filter: blur(0em);
+  transition: filter 5s;
+}
+
+img[data-src] {
+  filter: blur(0.2em);
 }

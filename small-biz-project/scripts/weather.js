@@ -19,7 +19,7 @@ fetch(apiUrlToday)
   .then(response => response.json())
   .then(data => {
     
-    const conditionCard = createCard("Weather Condition", data.weather[0].description);
+    const conditionCard = createCard("Condition", data.weather[0].description);
     const tempCard = createCard("Temperature", `${data.main.temp}&deg;F`);
     const humidityCard = createCard("Humidity", `${data.main.humidity}%`);
 

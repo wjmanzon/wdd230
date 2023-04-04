@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Bountiful Foods is small business specializing in organic, locally grown foods.">
 
-    <link rel="icon" href="images/favicon.ico" />
+    <link rel="icon" href="favicon.ico">
 
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
@@ -39,7 +39,7 @@
     </div>
     <nav>
       <ul id="primary-nav">
-        <li><a href="index.html">Home</a></li>
+        <li><a class="active"  href="index.html">Home</a></li>
         <li><a href="fresh.html">Fresh</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="franchise.html">Franchise</a></li>
@@ -100,49 +100,49 @@
             preference.</p>
           </div>
           <div class="specialty-right">
-            <p class="display-count">You submitted <span id="formSubmitCount"></span> fruit drink mix/es!</p>
+            <p class="display-count card">You submitted <span id="formSubmitCount"></span> fruit drink mix/es!</p>
           </div>
         </div>
         
         <div class="container">
           
           <div class="fruit-shake">
-            <img src="images/1.png" alt="Fruit Shake 1" class="image">
+            <img src="images/placeholder.jpg" data-src="images/1.png" alt="Fruit Shake 1" class="image lazy">
             <div class="overlayy">
               <h3 class="text">Avocado Mango Smoothie</h3>
             </div>
           </div>
 
           <div class="fruit-shake">
-            <img src="images/2.png" alt="Fruit Shake 1" class="image">
+            <img src="images/placeholder.jpg" data-src="images/2.png" alt="Fruit Shake 1" class="image lazy">
             <div class="overlayy">
               <h3 class="text">Apple-Ginger Elixir</h3>
             </div>
           </div>
 
           <div class="fruit-shake">
-            <img src="images/3.png" alt="Fruit Shake 1" class="image">
+            <img src="images/placeholder.jpg" data-src="images/3.png" alt="Fruit Shake 1" class="image lazy">
             <div class="overlayy">
               <h3 class="text">Strawberry Banana Smoothie</h3>
             </div>
           </div>
 
           <div class="fruit-shake">
-            <img src="images/4.png" alt="Fruit Shake 1" class="image">
+            <img src="images/placeholder.jpg" data-src="images/4.png" alt="Fruit Shake 1" class="image lazy">
             <div class="overlayy">
               <h3 class="text">Cherry Blueberry Smoothie</h3>
             </div>
           </div>
 
           <div class="fruit-shake">
-            <img src="images/5.png" alt="Fruit Shake 1" class="image">
+            <img src="images/placeholder.jpg" data-src="images/5.png" alt="Fruit Shake 1" class="image lazy">
             <div class="overlayy">
               <h3 class="text">Dragonfruit Pineapple Smoothie</h3>
             </div>
           </div>
 
           <div class="fruit-shake">
-            <img src="images/6.png" alt="Fruit Shake 1" class="image">
+            <img src="images/placeholder.jpg" data-src="images/6.png" alt="Fruit Shake 1" class="image lazy">
             <div class="overlayy">
               <h3 class="text">Avocado Banana Smoothie</h3>
             </div>
@@ -185,5 +185,6 @@
     <script src="scripts/weather.js"></script>
     <script src="scripts/data.js"></script>
     <script src="scripts/count.js"></script>
+    <script src="scripts/lazyload.js"></script>
 </body>
 </html>

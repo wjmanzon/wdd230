@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="About Bountiful Foods">
     
-    <link rel="icon" href="images/favicon.ico" />
+    <link rel="icon" href="favicon.ico">
 
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
@@ -44,7 +44,7 @@
       <ul id="primary-nav">
         <li><a href="index.html">Home</a></li>
         <li><a href="fresh.html">Fresh</a></li>
-        <li><a href="about.html">About</a></li>
+        <li><a class="active" href="about.html">About</a></li>
         <li><a href="franchise.html">Franchise</a></li>
       </ul>
     </nav>
@@ -64,7 +64,7 @@
               health benefits of her products.</p>
           </div>
           <div class="col">
-            <img class="history-image" src="images/history1.png" alt="Placeholder Image">
+            <img class="history-image lazy" src="images/placeholder.jpg" data-src="images/history1.png" alt="Placeholder Image">
           </div>
           <div class="col row2">
             <p class="history">Over time, Sarah expanded her business by adding a storefront in Carlsbad 
@@ -73,7 +73,7 @@
               even more exposure and built up a strong reputation for quality and service.</p>
           </div>
           <div class="col1">
-            <img class="history-image"  src="images/history2.png" alt="Placeholder Image">
+            <img class="history-image lazy"  src="images/placeholder.jpg" data-src="images/history2.png" alt="Placeholder Image">
           </div>
           <div class="col1">
             <p class="history">As the business grew, Sarah recognized the need to expand her reach beyond 
@@ -84,7 +84,7 @@
               healthy food on the go.</p>
           </div>
           <div class="col">
-            <img class="history-image"  src="images/history3.png" alt="Placeholder Image">
+            <img class="history-image lazy"  src="images/placeholder.jpg" data-src="images/history3.png" alt="Placeholder Image">
           </div>
           <div class="col row4">
             <p class="history">In recent years, Bountiful Foods has continued to grow, thanks in large part to 
@@ -94,7 +94,7 @@
               hit with customers looking for convenient, healthy options.</p>
           </div>
           <div class="col1">
-            <img class="history-image"  src="images/history4.png" alt="Placeholder Image">
+            <img class="history-image lazy"  src="images/placeholder.jpg" data-src="images/history4.png" alt="Placeholder Image">
           </div>
           <div class="col1">
             <p class="history">Today, Bountiful Foods remains a family-owned and operated business, with Sarah 
@@ -105,7 +105,7 @@
               Bountiful Foods has something for everyone.</p>
           </div>
           <div class="col bottom-element">
-            <img class="history-image"  src="images/history5.png" alt="Placeholder Image">
+            <img class="history-image lazy"  src="images/placeholder.jpg" data-src="images/history5.png" alt="Placeholder Image">
           </div>
       </div>
       <div class="franchise">
@@ -158,5 +158,6 @@
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/main.js"></script>
     <script src="scripts/cta-franchise.js"></script>
+    <script src="scripts/lazyload.js"></script>
 </body>
 </html>
