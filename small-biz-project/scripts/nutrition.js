@@ -44,6 +44,7 @@ createDrinkButton.addEventListener("click", function(event) {
   displayOutput();
 });
 
+/*
 async function displayOutput() {
   const response = await fetch(link);
   const data = await response.json();
@@ -60,7 +61,28 @@ async function displayOutput() {
       sugar: data.fruit[index].nutritions.sugar,
       calories: data.fruit[index].nutritions.calories
     });
-  }
+  } */
+  async function displayOutput() {
+    const response = await fetch(link);
+    const data = await response.json();
+  
+    const fruitArray = ["fruit1", "fruit2", "fruit3"];
+    const selectedFruits = [];
+  
+    fruitArray.forEach((id) => {
+      const fruit = document.getElementById(id);
+      const index = fruit.selectedIndex;
+      const fruitData = data.fruit.find((f) => f.name === fruit.options[index].value);
+      selectedFruits.push({
+        name: fruitData.name,
+        carbs: fruitData.nutritions.carbohydrates,
+        protein: fruitData.nutritions.protein,
+        fat: fruitData.nutritions.fat,
+        sugar: fruitData.nutritions.sugar,
+        calories: fruitData.nutritions.calories
+      });
+    });
+  
   
   const name = document.getElementById("name").value;
   const email = document.getElementById("email").value;
