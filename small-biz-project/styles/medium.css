@@ -1,5 +1,6 @@
 /* tablet views */
 @media only screen and (min-width: 37.5em) {
+  /* HEADER */
     header {
         display: flex;
         flex-direction: column;
@@ -16,7 +17,7 @@
         font-size: 14px;
         display: flex;
         align-items: left;
-        padding-left: .1em;
+        padding-left: 0;
       }
       
       .contact p {
@@ -29,11 +30,12 @@
     
       .social-media {
         display: flex;
+        align-items: center;
+        
       }
       
       .social-media img {
         width: 2rem;
-        margin-right: 10px;
       }
       
       .bottom {
@@ -48,7 +50,6 @@
       
       .logo img {
         height: 50px;
-        margin-right: 10px;
       }
 
       nav ul#primary-nav{
@@ -58,13 +59,12 @@
       }
 
       nav ul li a {
-        padding-left: 1em;
         padding-right: 0;
         margin: 0;
       }
 
       nav ul li{
-        padding-right: .7em;
+        padding-right: 1em;
         margin: 0;
       }
 
@@ -72,5 +72,105 @@
         display: none;
     }
 
+/* FOOTER */
+    .footer-logo {
+      display: flex;
+      flex-direction: row;
+      padding-top: 0;
+      padding-left: 1em;
+    }
+
+    .footer-top {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      background-color: #0A555F;
+      color: white;
+    }
+
+/* FORM */
+form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+label {
+  display: inline-block;
+  margin-right: 10px;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+/* MAIN */
+.weather-container, #forecast {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.hero-title {
+  padding: 80px 40px 0 80px;
+}
+
+.hero-par {
+  padding: 0px 40px 0 80px;
+}
+
+.hero, .overlay, .fruits-container {
+  min-height: 30em;
+  background-position: left center;
+}
+
+.fruits-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.fruits-heading, .fruits-par {
+  margin-right: 40px 0;
+}
+
+.fruits-small-container {
+  grid-column: 2/3;
+  margin: 150px 20px 150px 0;
+}
+
+.container {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.specialty-grid {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  margin: 50px;
+}
+
+.specialty-heading {
+  margin-left: 30px;
+  text-align: left;
+  color: #0A555F;
+}
+
+.specialty-par {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.display-count {
+  border: solid 1px #0A555F;
+  border-radius: 15px;
+  margin: 50px;
+  padding: 20px;
+  width: 150px;
+  font-size: 1.4em;
+
+}
 
 }

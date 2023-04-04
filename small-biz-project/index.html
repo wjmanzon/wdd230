@@ -14,27 +14,15 @@
     organic bounty, and convenience-->
 
 <!-- The Home page is a contemporary, exciting landing page 
-    providing images of fruit and produce including specialty 
-    fruit drinks that are ready to serve and made fresh. 
+    providing images of fruit and produce including
+
+    specialty fruit drinks 
+    
+    that are ready to serve and made fresh. 
     The page must contain the following.
 
-        Readily available navigation and business contact information.
-        Social media links (at least three) (no account necessary).
-
-        Summary information about any coastal area or areas in the southern California coast of your choosing.
-        The weather card(s) must summarize the current weather conditions for Carlsbad. 
-            Use the OpenWeatherMap APIs (weather, forecast/daily) and include:
-            the current temperature,
-            the condition description,
-            the humidity, and
-            a three(3) day temperature forecast.
-
-        A call to action to make your own fruit drink mix. This link can link to the 📄Fresh page.
-        Include an information card about the total number of specialty drinks that the current 
-            user has submitted from the Fresh page form. This information should just be stored locally,
-            with the user's agent (in their browser).-->
-
-<!--Include the last modified date of the page in the footer using JavaScript.-->
+        1. images of fruit and produce including specialty fruit drinks that are ready to serve and made fresh
+      -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -53,7 +41,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Gravitas+One&display=swap" rel="stylesheet">
 
     <title>Bountiful Foods</title>
 </head>
@@ -74,25 +62,155 @@
   <div class="bottom">
     <div class="logo">
       <img src="images/bf-food-logo.png" alt="Bountiful Foods Logo">
-      <h1>Bountiful Foods</h1>
+      <h1 class="site-title">Bountiful Foods</h1>
     </div>
     <nav>
       <ul id="primary-nav">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Fresh</a></li>
-        <li><a href="#">About</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="fresh.html">Fresh</a></li>
+        <li><a href="about.html">About</a></li>
       </ul>
     </nav>
     <button id="hamburger-button"><span>&#9776;</span><span>&#215;</span></button>
   </div>
 </header>
-
     <main>
+      <div class="hero">
+        <div class="overlay">
+        <h2 class="white hero-title"> Welcome to Carlsbad! </h2>
+        <p class="white hero-par">
+          Carlsbad is a 
+          a beautiful coastal city in California that offers something for everyone! 
+          <br>
+          <br>
+          Whether you're looking to relax on the beach, hit the golf course, 
+          or explore the local art scene, Carlsbad has it all. 
+          <br>
+          <br>
+          From the stunning Carlsbad Flower Fields to the iconic 
+          Legoland theme park, there is no shortage of things to do and see.
+        </p>
+        </div>
+        </div>
+      <div class="weather-bigger-container">
+        <h2 class="weather-heading">Today's Weather</h2>
+          <div class="weather-container">
+            <div id="today-condition" class="cardd"></div>
+            <div id="today-temperature" class="cardd"></div>
+            <div id="today-humidity" class="cardd"></div>
+          </div>
+        <h2 class="weather-heading">3-Day Weather Forecast (noon)</h2>
+          <div id="forecast"></div>
+      </div>
+      <div class="fruits-container">
+        <div class="fruits-small-container">
+        <h2 class="fruits-heading white"> Feel The Heat, <br> Quench Your Thirst! </h2>
+        <p class="fruits-par white">
+          And when you're feeling thirsty from all the excitement, be sure to 
+          stop by Bountiful Foods! 
+          <br><br>
+          Our delicious fruit drinks are made to order 
+          with only the freshest, locally grown fruits, providing the perfect 
+          refreshment for any adventure.
+        </p>
+        </div>
+      </div>
+      <div class="fruit-images">
+        <div class="specialty-grid">
+          <div class="specialty-left">
+            <h2 class="specialty-heading">Try Our Specialtys!</h2>
+            <p class="specialty-par"> Made with only the freshest fruits and ingredients, 
+            these smoothies are a perfect blend of nutrition and 
+            flavor. With a wide range of options to choose from, 
+            there is a Bountiful Foods smoothie for every taste 
+            preference.</p>
+          </div>
+          <div class="specialty-right">
+            <p class="display-count">You submitted <span id="formSubmitCount"></span> fruit drink mix/es!</p>
+          </div>
+        </div>
+        
+        <div class="container">
+          
+          <div class="fruit-shake">
+            <img src="images/1.png" alt="Fruit Shake 1" class="image">
+            <div class="overlayy">
+              <h3 class="text">Avocado Mango Smoothie</h3>
+            </div>
+          </div>
 
+          <div class="fruit-shake">
+            <img src="images/2.png" alt="Fruit Shake 1" class="image">
+            <div class="overlayy">
+              <h3 class="text">Apple-Ginger Elixir</h3>
+            </div>
+          </div>
+
+          <div class="fruit-shake">
+            <img src="images/3.png" alt="Fruit Shake 1" class="image">
+            <div class="overlayy">
+              <h3 class="text">Strawberry Banana Smoothie</h3>
+            </div>
+          </div>
+
+          <div class="fruit-shake">
+            <img src="images/4.png" alt="Fruit Shake 1" class="image">
+            <div class="overlayy">
+              <h3 class="text">Cherry Blueberry Smoothie</h3>
+            </div>
+          </div>
+
+          <div class="fruit-shake">
+            <img src="images/5.png" alt="Fruit Shake 1" class="image">
+            <div class="overlayy">
+              <h3 class="text">Dragonfruit Pineapple Smoothie</h3>
+            </div>
+          </div>
+
+          <div class="fruit-shake">
+            <img src="images/6.png" alt="Fruit Shake 1" class="image">
+            <div class="overlayy">
+              <h3 class="text">Avocado Banana Smoothie</h3>
+            </div>
+          </div>
+        </div>
+    
+      <div class="cta">
+        <img class="truck" src="images/truck.png" alt="food truck"> 
+        <h2 class="cta-heading"> Convenient. Healthy. Bountiful. </h2>
+        <p class="cta-par">
+          So come visit us at our Carlsbad 
+          storefront or find one of our food trucks as you explore this 
+          amazing city. Let Bountiful Foods be your go-to for fresh and 
+          healthy drinks during your stay in Carlsbad.
+        </p>
+        
+        <button class="cta-button">Create Your Own Fruit Drink Mix</button>        
+      </div>
     </main>
     <footer>
-
+      <div class="footer-top">
+        <div class="footer-logo">
+          <img class="footer-logo-image" src="images/bf-food-logo.png" alt="Bountiful Foods Logo">
+          <h2 class="site-title">Bountiful Foods</h2>
+        </div>
+        <div class="social-media">
+          <a href="#"><img class="fa fa-facebook" src="images/facebook.png"></a>
+          <a href="#"><img class="fa fa-twitter" src="images/twitter.png"></a>
+          <a href="#"><img class="fa fa-instagram" src="images/instagram.png"></a>
+          <a href="#"><img class="fa fa-linkedin" src="images/linkedin.png"></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy;<span id="copyrightYear"></span> | 
+          Last modified on <span id="lastModified"></span> |
+          <a class="links" href="attribution.html">Attribution Page</a></p>
+      </div>
     </footer>
-    <script defer src="scripts/hamburger.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/data.js"></script>
+    <script src="scripts/count.js"></script>
 </body>
 </html>

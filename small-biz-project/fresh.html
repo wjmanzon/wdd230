@@ -1,15 +1,113 @@
-<!--The Fresh page contains a form that allows the user to build their own specialty drink.
-The form requires the following items from the user:
-    first name,
-    email,
-    phone number,
-    three (3) select element inputs that are populated with the available fruit to put into a drink.
-        Populate all three select elements with all of the available fruits.
-        Available fruit options must only come from this JSON data source for full credit consideration: Fruit DataLinks to an external site.
-    and, include an area that allows them to add special instructions, if needed.
-Do NOT send the form to a new page upon form submission. Instead, use a JavaScript event handler to produce a formatted output area on this same page showing:
-    the input values of the order (7 inputs = first name, email, phone, three selected fruits, and special instructions),
-    the order date, and
-    the total amount of carbohydrates, protein, fat, sugar, and calories based upon the three fruit choices selected on the form. The data source provides that information per fruit.-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Make your own fruit mix recipe with Bountiful Foods">
+    
+    <link rel="icon" href="images/favicon.ico" />
 
-<!--Include the last modified date of the page in the footer using JavaScript.-->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Poppins:wght@700&display=swap" rel="stylesheet">
+    
+    <title>Fresh Page</title>
+</head>
+<body>
+    <header>
+  <div class="top">
+    <div class="contact">
+      <p><i class="fa fa-phone"></i> Phone: (123) 456-7890</p>
+      <p><i class="fa fa-envelope"></i> Email: info@company.com</p>
+    </div>
+    <div class="social-media">
+      <a href="#"><img class="fa fa-facebook" src="images/facebook.png"></a>
+      <a href="#"><img class="fa fa-twitter" src="images/twitter.png"></a>
+      <a href="#"><img class="fa fa-instagram" src="images/instagram.png"></a>
+      <a href="#"><img class="fa fa-linkedin" src="images/linkedin.png"></a>
+    </div>
+  </div>
+  <div class="bottom">
+    <div class="logo">
+      <img src="images/bf-food-logo.png" alt="Bountiful Foods Logo">
+      <h1 class="site-title">Bountiful Foods</h1>
+    </div>
+    <nav>
+      <ul id="primary-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="fresh.html">Fresh</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+    <button id="hamburger-button"><span>&#9776;</span><span>&#215;</span></button>
+  </div>
+</header>
+
+<main class="fresh-main">
+  
+  <form id="myform">
+    <h2 class="form-heading">Create your own fruit drink mix!</h2>
+    <fieldset>
+      <legend>Your Information</legend>
+      <label>First Name* <input id="name" type="text" name="fname" required></label>
+      <label>Email* <input id="email" type="email" name="email" placeholder="yourEmail@gmail.com" required ></label>
+      <label>Phone* <input id="phone" type="tel" name="phone" placeholder="123456789" required ></label>
+    </fieldset>
+    <fieldset>
+      <legend>Fruit Drink Mix</legend>
+      <p>Choose three fruits</p>
+      <select name="fruit1" id="fruit1" required>
+        <option value="">-- Choose fruit 1 --</option>
+      </select>
+      <select name="fruit2" id="fruit2" required>
+        <option value="">-- Choose fruit 2 --</option>
+      </select>
+      <select name="fruit3" id="fruit3" required>
+        <option value="">-- Choose fruit 3 --</option>
+      </select>
+    </fieldset>
+    
+    <fieldset>
+      <legend>Others</legend>
+      <p>Enter instructions</p>
+      <label>
+        <textarea id="specialInstructions" name="description" rows="3"></textarea>
+      </label>
+    </fieldset>
+
+    <button id="createDrink" type="submit" class="submitBtn">Create This Mix </button>
+    <div id="output"></div>
+    <p class="cta-par">You submitted <span id="formSubmitCount"></span> fruit drink mix/es!</p>
+  </form>
+</main>
+    <footer>
+      <div class="footer-top">
+        <div class="footer-logo">
+          <img class="footer-logo-image" src="images/bf-food-logo.png" alt="Bountiful Foods Logo">
+          <h2 class="site-title">Bountiful Foods</h2>
+        </div>
+        <div class="social-media">
+          <a href="#"><img class="fa fa-facebook" src="images/facebook.png"></a>
+          <a href="#"><img class="fa fa-twitter" src="images/twitter.png"></a>
+          <a href="#"><img class="fa fa-instagram" src="images/instagram.png"></a>
+          <a href="#"><img class="fa fa-linkedin" src="images/linkedin.png"></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy;<span id="copyrightYear"></span> | 
+          Last modified on <span id="lastModified"></span> |
+          <a class="links" href="attribution.html">Attribution Page</a></p>
+      </div>
+    </footer>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/data.js"></script>
+    <script src="scripts/count.js"></script>
+</body>
+</html>

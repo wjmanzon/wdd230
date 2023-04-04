@@ -1,32 +1,35 @@
-header {
-   
+  /* Global styles */
+  body {
+    max-width: 1200px;
+    box-sizing: border-box;
+    margin: 0 auto;
+  }
+
+  * {
+    font-family: 'Chelsea Market', cursive;
+  }
+
+  h1, h2, h3, h4, h5, h6, a {
+    font-family: 'Chelsea Market', cursive;
+    color: white;
+  }
+
+  p {
+    font-size: 1.1em;
   }
   
   .top {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px;
+    padding: 1px;
     background-color: #20665C;
     color: white;
   }
   
   .contact {
-    font-family: 'Lora', sans-serif;
     font-size: 14px;
     padding-left: .5em;
-  }
-  
-  .contact p {
-    
-  }
-  
-  .contact i {
-    
-  }
-
-  .social-media {
-    
   }
   
   .social-media img {
@@ -40,7 +43,7 @@ header {
     flex-direction: column;
     justify-content: space-between;
     /* align-items: center; */
-    padding: 10px;
+    padding: 1px;
     background-color: #0A555F;
     color: white;
   }
@@ -54,11 +57,10 @@ header {
     height: 50px;
   }
   
-  .logo h1 {
-    font-family: 'Poppins', serif;
+  .site-title {
     font-size: 24px;
     font-weight: bold;
-    text-transform: uppercase;
+    color: white;
   }
   
   nav ul {
@@ -73,7 +75,6 @@ header {
     display: block;
     text-align: center;
     padding: 0.8rem 2vw;
-    font-family: 'Lora', sans-serif;
     font-size: 16px;
     color: white;
     text-decoration: none;
@@ -95,10 +96,11 @@ header {
   #hamburger-button {
     position: absolute;
     right: .9em;
-    top: 1.5em;
+    top: 1em;
     margin: auto 0;
     width: 2rem;
     height: 2rem;
+    color: #0A555F;
   }
 
   #hamburger-button span:nth-child(1) {
@@ -116,3 +118,300 @@ header {
   #hamburger-button.open span:nth-child(2) {
     display: block;
   }
+
+  .site-title {
+    padding-left: .5em;
+  }
+
+
+  /* FOOTER */
+  .footer-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-logo-image {
+    height: 50px;
+  }
+
+  .footer-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0A555F;
+    color: white;
+    padding: 5px;
+    border-bottom: solid 1px #8FB46A;
+  }
+
+  .footer-bottom {
+    text-align: center;
+    background-color: #0A555F;
+    color: white;
+    padding: 1px;
+  }
+  
+  .links {
+    text-decoration: none;
+    color: white;
+  }
+
+  /* FORM */
+  .form-heading {
+    margin-top: 50px;
+    color: #0A555F;
+    text-align: center;
+  }
+
+  fieldset {
+    margin-bottom: 20px;
+    border-radius: 15px;
+    border: solid 1px #0A555F;
+  }
+
+  legend {
+    font-size: 1.2em;
+    color: #0A555F;
+    font-weight: 800;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  textarea,
+  select {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+
+  /* MAIN */
+  main {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+.hero {
+    grid-template-columns: 1/2;
+    background-image: url("../images/ocean-e.png");
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: darken;
+  }
+
+.fruits-container {
+  min-height: 35em;
+  background-image: url("../images/shake.png");
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: darken;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.fruits-heading, .fruits-par {
+  padding: 10px;
+  color: white;
+}
+
+
+
+.fruits-small-container {
+  grid-column: 1/2;
+  margin: 150px 15px;
+}
+
+.overlay, .hero, .fruits-container {
+    margin: -10px 0 0 0;
+    padding: 0;
+    background-color: rgba(128, 128, 128, 0.3);
+    min-height: 27em;
+    width: 100%;
+  }
+
+.cta {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  margin: 50px auto;
+}
+
+.cta-heading, .cta-par, .truck {
+  color:#0A555F;
+  grid-column: 2/3;
+  text-align: center;
+}
+
+.truck {
+  width: 150px;
+  margin: 0 auto;
+}
+
+.cta-button {
+  grid-column: 2/3;
+}
+
+.cta-button,  .submitBtn {
+  display: block;
+  color: white;
+  background-color:#4CAF50;
+  border: solid 1px #0A555F;
+  border-radius: 15px;
+  font-size: 1.5em;
+  cursor: pointer;
+  padding: 10px;
+  margin: 0 auto 50px;
+  width: fit-content;
+}
+
+.hero-title {
+  padding: 60px 40px 0 40px;
+}
+
+.hero-par {
+  padding: 0 40px 0 40px;
+}
+
+.hero-par {
+  max-width: 400px;
+}
+
+.white {
+  color: white;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.9);
+}
+
+  /* WEATHER FORECAST */
+.weather-bigger-container {
+  margin: 50px 0;
+}
+
+.weather-container, #forecast {
+  max-width: 600px;
+  margin: 0 auto 40px;
+}
+
+
+.weather-heading {
+  text-align: center;
+  color:#20665C;
+}
+
+  .card {
+  display: block;
+  width: 150px;
+  height: 160px;
+  margin: 5px auto;
+  padding: 10px;
+  border: 1px solid #20665C;
+  border-radius: 15px;
+}
+
+.cardd .card p {
+  font-size: 2em;
+  color:black;
+}
+
+.card h2 {
+  font-size: 1em;
+  margin-top: 15px;
+  text-align: center;
+  color:#20665C;
+}
+
+.card p {
+  margin: 10px 0;
+  font-size: 16px;
+  text-align: center;
+}
+
+.weatherIcon {
+  width: 75px;
+  display: block;
+  margin: 0 auto;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+/* HOVER EFFECT */
+.fruit-shake {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlayy {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #20665C;
+}
+
+.fruit-shake:hover .overlayy {
+  opacity: .7;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.specialty-heading {
+  color: #20665C;
+  margin: 50px 25px 0 25px;
+}
+
+.specialty-par {
+  color: #20665C;
+  margin: 10px 25px 0px 25px;
+}
+
+.specialty-par, .display-count {
+  color: #20665C;
+  margin: 10px 25px 50px 25px;
+}
+
+#output {
+  border: solid 1px #20665C;
+  border-radius: 15px;
+  padding: 25px;
+}
+
+#output h3 {
+  color: #20665C;
+  padding-top: 15px;
+}

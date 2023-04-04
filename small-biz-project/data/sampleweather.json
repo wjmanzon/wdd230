@@ -1,0 +1,45 @@
+{
+    "coord": {
+        "lon": -117.3506,
+        "lat": 33.1581
+    },
+    "weather": [
+        {
+            "id": 804,
+            "main": "Clouds",
+            "description": "overcast clouds",
+            "icon": "04n"
+        }
+    ],
+    "base": "stations",
+    
+    "main": {
+        "temp": 55.92,
+        "feels_like": 55.26,
+        "temp_min": 53.71,
+        "temp_max": 57.72,
+        "pressure": 1016,
+        "humidity": 86
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 8.99,
+        "deg": 227,
+        "gust": 15.01
+    },
+    "clouds": {
+        "all": 100
+    },
+    "dt": 1680505154,
+    "sys": {
+        "type": 2,
+        "id": 2006614,
+        "country": "US",
+        "sunrise": 1680442554,
+        "sunset": 1680487785
+    },
+    "timezone": -25200,
+    "id": 5334223,
+    "name": "Carlsbad",
+    "cod": 200
+}
